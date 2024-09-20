@@ -26,6 +26,8 @@ Características comunes:
 
 ### GML
 
+![][01]
+
 __GML__ (_IBM Generalized Markup Language_), es un lenguaje de marcas desarrollado por IBM a finales de los años 60 y principios de los 70. Se utilizó principalmente para crear documentos estructurados y formateados que podían ser interpretados y presentados en diferentes dispositivos sin modificar el contenido del archivo original.
 
 El lenguaje fue creado por _Charles Goldfarb_, _Edward Mosher_ y _Raymond Lorie_, quienes eligieron las iniciales de sus apellidos para dar nombre a _GML_. A través del uso de etiquetas, _GML_ permitía definir la estructura de un documento, como encabezados, párrafos y listas, separando así el contenido de su presentación.
@@ -68,8 +70,6 @@ Algunas limitaciones de GML eran:
 
 _GML_ sentó las bases para el desarrollo de __SGML__ (_Standard Generalized Markup Language_), que se convirtió en un estándar ISO y más tarde evolucionó en XML (Extensible Markup Language). Estas evoluciones llevaron la estructuración de documentos a nuevos niveles, influyendo enormemente en la forma en que los datos se gestionan y se comparten en la actualidad.
 
-![][01]
-
 ### SGML
 
 __SGML__ (_Standard Generalized Markup Language_) es un estándar ISO (ISO 8879:1986) que define un marco para la creación de lenguajes de marcado utilizados para estructurar y describir documentos de manera independiente del formato de presentación. SGML se considera uno de los lenguajes de marcado más influyentes, ya que sirvió como base para otros lenguajes como HTML y XML.
@@ -107,10 +107,10 @@ Un documento SGML típico comienza con una declaración de tipo de documento (<!
 Explicación de las Etiquetas:
 
 * __\<!DOCTYPE manual SYSTEM "manual.dtd"\>__: define el tipo de documento y especifica que el documento seguirá la estructura definida en el DTD (Document Type Definition) llamado "manual.dtd". El fichero DTD establece las reglas y la estructura del documento asegurando que todas las etiquetas utilizadas sean válidas según las definiciones establecidas en el DTD.
-* __\<manual>\ y \</manual\>__: define el inicio y el fin del documento SGML principal. Actúa como el contenedor principal del contenido del manual, agrupando todas las secciones y elementos relacionados.
-* __\<title>\ y \</title\>__: marca un título dentro del documento. Utilizada para definir títulos tanto del documento principal como de las subsecciones. En el ejemplo, se usa para "Manual de Usuario", "Introducción" y "Instalación".
-* __\<section>\ y \</section\>__: define una sección del documento, que puede contener múltiples títulos y párrafos. Organiza el contenido en bloques lógicos, facilitando la estructuración del texto en partes diferenciadas.
-* __\<para>\ y \</para\>__: define un párrafo de texto dentro de una sección. Usada para incluir el contenido explicativo o descriptivo en un formato estructurado dentro de las secciones.
+* __\<manual\> y \</manual\>__: define el inicio y el fin del documento SGML principal. Actúa como el contenedor principal del contenido del manual, agrupando todas las secciones y elementos relacionados.
+* __\<title\> y \</title\>__: marca un título dentro del documento. Utilizada para definir títulos tanto del documento principal como de las subsecciones. En el ejemplo, se usa para "Manual de Usuario", "Introducción" y "Instalación".
+* __\<section\> y \</section\>__: define una sección del documento, que puede contener múltiples títulos y párrafos. Organiza el contenido en bloques lógicos, facilitando la estructuración del texto en partes diferenciadas.
+* __\<para\> y \</para\>__: define un párrafo de texto dentro de una sección. Usada para incluir el contenido explicativo o descriptivo en un formato estructurado dentro de las secciones.
 
 Cada etiqueta tiene un propósito específico que facilita la organización lógica del documento, permitiendo una clara separación entre diferentes partes del texto.
 
@@ -271,13 +271,13 @@ Aplicaciones y uso de HTML:
 * __Documentación y presentación de información__: se emplea para crear documentos estructurados accesibles a través de la web.
 
 Ventajas de HTML:
-* __Simplicidad y facilidad de uso__: Es fácil de aprender y escribir, lo que permite a los desarrolladores crear páginas web de manera rápida.
+* __Simplicidad y facilidad de uso__: rs fácil de aprender y escribir, lo que permite a los desarrolladores crear páginas web de manera rápida.
 * __Estándar abierto y universal__: HTML es un estándar mantenido por el W3C y es compatible con todos los navegadores web modernos.
 * __Integración con otras tecnologías__: funciona de la mano con CSS para diseño y con JavaScript para interactividad, lo que lo hace muy flexible y poderoso.
 
 Desventajas de HTML:
 * __Limitado en Funcionalidades Dinámicas__: HTML solo define la estructura y contenido, pero no puede manejar lógica de negocio o interactividad avanzada sin la ayuda de lenguajes de scripting como JavaScript.
-* __Dependencia de CSS y JavaScript__: Para crear páginas modernas y atractivas, HTML necesita combinarse con CSS y JavaScript, lo que incrementa la complejidad del desarrollo.
+* __Dependencia de CSS y JavaScript__: para crear páginas modernas y atractivas, HTML necesita combinarse con CSS y JavaScript, lo que incrementa la complejidad del desarrollo.
 
 La siguiente tabla muestra las distintas versiones de HTML y su año de lanzamiento:
 
@@ -288,8 +288,6 @@ La siguiente tabla muestra las distintas versiones de HTML y su año de lanzamie
 | HTML 3.2    | 1997               | HyperText Markup Language (HTML) 3.2      |
 | HTML 4.0    | 1997               | HyperText Markup Language (HTML) 4.0      |
 | HTML 4.01   | 1999               | HyperText Markup Language (HTML) 4.01     |
-| XHTML 1.0   | 2000               | Extensible HyperText Markup Language 1.0  |
-| XHTML 1.1   | 2001               | Extensible HyperText Markup Language 1.1  |
 | HTML 5      | 2014               | HTML5                                     |
 
 Descripción de las versiones:
