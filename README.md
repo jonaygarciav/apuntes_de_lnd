@@ -6,4 +6,5 @@
 
 UT01: Introducción a los Lenguajes de Marcas
 * [Introducción a los lenguajes de marcas](./apuntes/ut01/introduccion-a-los-lenguajes-de-marcas.md)
+* [Otros formatos de texto](./apuntes/ut01/otros-formatos-de-texto.md)
 * [Sistemas de codificación](./apuntes/ut01/sistemas-de-codificacion.md)
