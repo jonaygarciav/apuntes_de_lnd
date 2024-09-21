@@ -268,6 +268,70 @@ _UTF-8_ es una codificación de longitud variable que utiliza entre 1 y 4 bytes 
 * __Carácter de 3 bytes__: los caracteres de lenguas asiáticas como el chino, japonés o coreano generalmente requieren 3 bytes. Por ejemplo, 日 (Kanji para "sol" en japonés), código UTF-8 E6 97 A5 (Hexadecimal)
 * __Carácter de 4 bytes__: los caracteres especiales como emojis y algunos símbolos raros requieren 4 bytes.  Por ejemplo, 😀 (Emoji de cara sonriente).
 
+A continuación, se muestra la tabla de caracteres ASCII Extendido UTF-8, la cual contiene una pequeña muestra de caracteres:
+
+| **Carácter (1 byte)** | **Código UTF-8** | **Bytes (Hexadecimal)** | **Carácter (3-4 bytes)** | **Código UTF-8** | **Bytes (Hexadecimal)** |
+|-----------------------|------------------|-------------------------|--------------------------|------------------|-------------------------|
+| A                     | \u0041           | 41                      | ñ                        | \u00F1           | C3 B1                   |
+| B                     | \u0042           | 42                      | Ñ                        | \u00D1           | C3 91                   |
+| C                     | \u0043           | 43                      | á                        | \u00E1           | C3 A1                   |
+| D                     | \u0044           | 44                      | é                        | \u00E9           | C3 A9                   |
+| E                     | \u0045           | 45                      | í                        | \u00ED           | C3 AD                   |
+| F                     | \u0046           | 46                      | ó                        | \u00F3           | C3 B3                   |
+| G                     | \u0047           | 47                      | ú                        | \u00FA           | C3 BA                   |
+| H                     | \u0048           | 48                      | ü                        | \u00FC           | C3 BC                   |
+| I                     | \u0049           | 49                      | À                        | \u00C0           | C3 80                   |
+| J                     | \u004A           | 4A                      | Á                        | \u00C1           | C3 81                   |
+| K                     | \u004B           | 4B                      | Â                        | \u00C2           | C3 82                   |
+| L                     | \u004C           | 4C                      | Ã                        | \u00C3           | C3 83                   |
+| M                     | \u004D           | 4D                      | Ä                        | \u00C4           | C3 84                   |
+| N                     | \u004E           | 4E                      | È                        | \u00C8           | C3 88                   |
+| O                     | \u004F           | 4F                      | É                        | \u00C9           | C3 89                   |
+| P                     | \u0050           | 50                      | Ê                        | \u00CA           | C3 8A                   |
+| Q                     | \u0051           | 51                      | Ë                        | \u00CB           | C3 8B                   |
+| R                     | \u0052           | 52                      | Ì                        | \u00CC           | C3 8C                   |
+| S                     | \u0053           | 53                      | Í                        | \u00CD           | C3 8D                   |
+| T                     | \u0054           | 54                      | Î                        | \u00CE           | C3 8E                   |
+| U                     | \u0055           | 55                      | Ï                        | \u00CF           | C3 8F                   |
+| V                     | \u0056           | 56                      | Ò                        | \u00D2           | C3 92                   |
+| W                     | \u0057           | 57                      | Ó                        | \u00D3           | C3 93                   |
+| X                     | \u0058           | 58                      | Ô                        | \u00D4           | C3 94                   |
+| Y                     | \u0059           | 59                      | Õ                        | \u00D5           | C3 95                   |
+| Z                     | \u005A           | 5A                      | Ö                        | \u00D6           | C3 96                   |
+| a                     | \u0061           | 61                      | ù                        | \u00F9           | C3 B9                   |
+| b                     | \u0062           | 62                      | Ù                        | \u00D9           | C3 99                   |
+| c                     | \u0063           | 63                      | Ú                        | \u00DA           | C3 9A                   |
+| d                     | \u0064           | 64                      | Û                        | \u00DB           | C3 9B                   |
+| e                     | \u0065           | 65                      | Ü                        | \u00DC           | C3 9C                   |
+| f                     | \u0066           | 66                      | €                        | \u20AC           | E2 82 AC                |
+| g                     | \u0067           | 67                      | ¿                        | \u00BF           | C2 BF                   |
+| h                     | \u0068           | 68                      | ¡                        | \u00A1           | C2 A1                   |
+| i                     | \u0069           | 69                      | 😀                       | \u1F600          | F0 9F 98 80             |
+| j                     | \u006A           | 6A                      | ❤️                       | \u2764           | E2 9D A4                |
+| k                     | \u006B           | 6B                      | ☀                       | \u2600           | E2 98 80                |
+| l                     | \u006C           | 6C                      | ⚡                       | \u26A1           | E2 9A A1                |
+| m                     | \u006D           | 6D                      | 🌙                       | \u1F319          | F0 9F 8C 99             |
+| n                     | \u006E           | 6E                      | 🌟                       | \u1F31F          | F0 9F 8C 9F             |
+| o                     | \u006F           | 6F                      | 🐍                       | \u1F40D          | F0 9F 90 8D             |
+| p                     | \u0070           | 70                      | 🎉                       | \u1F389          | F0 9F 8E 89             |
+| q                     | \u0071           | 71                      | 🥳                       | \u1F973          | F0 9F A5 B3             |
+| r                     | \u0072           | 72                      | 🚀                       | \u1F680          | F0 9F 9A 80             |
+| s                     | \u0073           | 73                      | 🎶                       | \u1F3B6          | F0 9F 8E B6             |
+| t                     | \u0074           | 74                      | 📚                       | \u1F4DA          | F0 9F 93 9A             |
+| u                     | \u0075           | 75                      | 📅                       | \u1F4C5          | F0 9F 93 85             |
+| v                     | \u0076           | 76                      | 💡                       | \u1F4A1          | F0 9F 92 A1             |
+| w                     | \u0077           | 77                      | 🔥                       | \u1F525          | F0 9F 94 A5             |
+| x                     | \u0078           | 78                      | ⭐                       | \u2B50           | E2 AD 90                |
+| y                     | \u0079           | 79                      | 🧡                       | \u1F9E1          | F0 9F A7 A1             |
+| z                     | \u007A           | 7A                      | 💯                       | \u1F4AF          | F0 9F 92 AF             |
+| +                     | \u002B           | 2B                      | 👑                       | \u1F451          | F0 9F 91 91             |
+| -                     | \u002D           | 2D                      | 🌈                       | \u1F308          | F0 9F 8C 88             |
+| *                     | \u002A           | 2A                      | 🎂                       | \u1F382          | F0 9F 8E 82             |
+| /                     | \u002F           | 2F                      | 🍀                       | \u1F340          | F0 9F 8D 80             |
+| .                     | \u002E           | 2E                      | 🎨                       | \u1F3A8          | F0 9F 8E A8             |
+| ,                     | \u002C           | 2C                      | 🎁                       | \u1F381          | F0 9F 8E 81             |
+| !                     | \u0021           | 21                      | 🌍                       | \u1F30D          |
+
 Ventajas:
 * __Ahorra espacio__: utiliza solo un byte para los caracteres más comunes.
 * __Uso extendido__: es la codificación preferida para la web, ya que HTML y muchos otros protocolos están optimizados para UTF-8.
@@ -314,3 +378,98 @@ Conclusión:
 * __UTF-32__ es ideal para sistemas que necesitan una codificación fija por carácter, aunque su alto consumo de memoria limita su uso.
 
 Estas codificaciones permiten a Unicode representar y gestionar texto de cualquier idioma de manera coherente y flexible, facilitando la comunicación y la interoperabilidad en la era digital.
+
+## Codificación en Ssitemas Windows
+
+Windows utiliza varias páginas de códigos (code pages) para manejar la representación de caracteres en diferentes idiomas y contextos. Estas páginas de códigos determinan cómo se interpretan los bytes en archivos de texto, aplicaciones de consola, y otros entornos.
+
+* __Code Page 437__ (_OEM - Estados Unidos_): la página de códigos original de IBM PC para inglés de EE.UU., usada principalmente en DOS. Soporta caracteres ASCII estándar y algunos gráficos de líneas.
+* __Code Page 850__ (_OEM - Multilingüe Latin 1_): una codificación de caracteres usada principalmente en Europa Occidental y América Latina. Es una versión extendida del CP 437 y fue diseñada para soportar más caracteres acentuados y símbolos especiales comunes en lenguas europeas. Incluye caracteres ASCII y amplía con letras * acentuadas y caracteres especiales.
+* __Code Page 1252__ (_ANSI - Latin 1_): similar al CP 850, pero es una codificación Windows estándar (ANSI) usada en aplicaciones gráficas y archivos de texto. Incluye caracteres europeos occidentales, acentuados, símbolos monetarios, y caracteres de control.
+* __Code Page 1250__ (_Central European_): utilizada para lenguas centroeuropeas como polaco, checo, húngaro, etc. Incluye caracteres específicos de lenguas eslavas y centroeuropeas.
+* __Code Page 65001__ (_UTF-8_): codificación moderna que soporta una amplia gama de caracteres Unicode. Se utiliza para aplicaciones internacionales y es compatible con muchos idiomas. Soporta virtualmente todos los caracteres definidos en Unicode, incluyendo emojis, caracteres asiáticos, etc.
+
+__Code Page 850__
+
+La _Code Page 850_ es una de las páginas de códigos más utilizadas en entornos europeos y de habla hispana, especialmente en contextos de consola o sistemas antiguos. Esta página de códigos extiende la CP 437 con más caracteres latinos, lo que la hace más adecuada para trabajar con idiomas que requieren acentos y símbolos adicionales. Se basa en ASCII extendido, que incluye los 128 caracteres básicos de ASCII (como letras inglesas, números y símbolos comunes) y añade 128 caracteres adicionales específicos de la región, como letras acentuadas y símbolos gráficos.
+ASCII extendido fue diseñado para proporcionar soporte básico para idiomas europeos occidentales en sistemas que no requerían soporte para los miles de caracteres que Unicode puede representar.
+
+Características de Code Page 850:
+
+* __Diseño Multilingüe__: está diseñada para soportar varios idiomas europeos occidentales, incluyendo español, francés, alemán, italiano, y portugués, entre otros.
+* __Compatibilidad__: es compatible con la mayoría de los caracteres utilizados en aplicaciones y sistemas de consola en Windows, especialmente aquellos desarrollados en la era de MS-DOS.
+* __Conjunto de Caracteres__: soporta caracteres ASCII básicos (del 0 al 127), extendiéndose con caracteres latinos acentuados y otros símbolos (del 128 al 255), como "ñ", "á", "é", "í", "ó", "ú", y símbolos como "ç" y "ß".
+* __Uso Común__: se utiliza frecuentemente en la consola de Windows para aplicaciones heredadas o cuando se necesita compatibilidad con sistemas antiguos que no soportan UTF-8 o Unicode.
+
+Limitaciones:
+
+* No soporta caracteres de otros alfabetos como cirílico, griego, o caracteres asiáticos.
+* Puede presentar problemas al manejar caracteres especiales que no estén incluidos en su rango, como algunos símbolos modernos o emojis.
+
+jemplos de Caracteres de Code Page 850:
+
+* __Letras Acentuadas__: á (0xA0), é (0x82), í (0xA1), ó (0xA2), ú (0xA3), ñ (0xA4).
+* __Símbolos Especiales__: ç (0x87), ß (0xE1), £ (0x9C), § (0xA7).
+* __Caracteres de Control y Gráficos__: incluye algunos caracteres gráficos como líneas y cuadros, útiles para aplicaciones de consola.
+
+Conclusión:
+La Code Page 850 sigue siendo relevante en entornos donde la compatibilidad con aplicaciones antiguas es esencial. Aunque ha sido en gran parte reemplazada por UTF-8 en aplicaciones modernas, su uso sigue siendo necesario para ciertos sistemas y aplicaciones que manejan datos en contextos específicos de Europa Occidental y América Latina.
+
+
+A continuación, se muestra la tabla de caracteres de la codificación CP 850 (Code Page 850), que muestra los caracteres correspondientes a los códigos del 0 al 255:
+
+| **Código** | **Hexadecimal** | **Carácter** | **Código** | **Hexadecimal** | **Carácter** | **Código** | **Hexadecimal** | **Carácter** | **Código** | **Hexadecimal** | **Carácter** |
+|------------|-----------------|---------------|------------|-----------------|---------------|------------|-----------------|---------------|------------|-----------------|---------------|
+| 0          | 0x00            | NUL           | 32         | 0x20            | (espacio)     | 64         | 0x40            | @             | 96         | 0x60            | `             |
+| 1          | 0x01            | SOH           | 33         | 0x21            | !             | 65         | 0x41            | A             | 97         | 0x61            | a             |
+| 2          | 0x02            | STX           | 34         | 0x22            | "             | 66         | 0x42            | B             | 98         | 0x62            | b             |
+| 3          | 0x03            | ETX           | 35         | 0x23            | #             | 67         | 0x43            | C             | 99         | 0x63            | c             |
+| 4          | 0x04            | EOT           | 36         | 0x24            | $             | 68         | 0x44            | D             | 100        | 0x64            | d             |
+| 5          | 0x05            | ENQ           | 37         | 0x25            | %             | 69         | 0x45            | E             | 101        | 0x65            | e             |
+| 6          | 0x06            | ACK           | 38         | 0x26            | &             | 70         | 0x46            | F             | 102        | 0x66            | f             |
+| 7          | 0x07            | BEL           | 39         | 0x27            | '             | 71         | 0x47            | G             | 103        | 0x67            | g             |
+| 8          | 0x08            | BS            | 40         | 0x28            | (             | 72         | 0x48            | H             | 104        | 0x68            | h             |
+| 9          | 0x09            | TAB           | 41         | 0x29            | )             | 73         | 0x49            | I             | 105        | 0x69            | i             |
+| 10         | 0x0A            | LF            | 42         | 0x2A            | *             | 74         | 0x4A            | J             | 106        | 0x6A            | j             |
+| 11         | 0x0B            | VT            | 43         | 0x2B            | +             | 75         | 0x4B            | K             | 107        | 0x6B            | k             |
+| 12         | 0x0C            | FF            | 44         | 0x2C            | ,             | 76         | 0x4C            | L             | 108        | 0x6C            | l             |
+| 13         | 0x0D            | CR            | 45         | 0x2D            | -             | 77         | 0x4D            | M             | 109        | 0x6D            | m             |
+| 14         | 0x0E            | SO            | 46         | 0x2E            | .             | 78         | 0x4E            | N             | 110        | 0x6E            | n             |
+| 15         | 0x0F            | SI            | 47         | 0x2F            | /             | 79         | 0x4F            | O             | 111        | 0x6F            | o             |
+| 16         | 0x10            | DLE           | 48         | 0x30            | 0             | 80         | 0x50            | P             | 112        | 0x70            | p             |
+| 17         | 0x11            | DC1           | 49         | 0x31            | 1             | 81         | 0x51            | Q             | 113        | 0x71            | q             |
+| 18         | 0x12            | DC2           | 50         | 0x32            | 2             | 82         | 0x52            | R             | 114        | 0x72            | r             |
+| 19         | 0x13            | DC3           | 51         | 0x33            | 3             | 83         | 0x53            | S             | 115        | 0x73            | s             |
+| 20         | 0x14            | DC4           | 52         | 0x34            | 4             | 84         | 0x54            | T             | 116        | 0x74            | t             |
+| 21         | 0x15            | NAK           | 53         | 0x35            | 5             | 85         | 0x55            | U             | 117        | 0x75            | u             |
+| 22         | 0x16            | SYN           | 54         | 0x36            | 6             | 86         | 0x56            | V             | 118        | 0x76            | v             |
+| 23         | 0x17            | ETB           | 55         | 0x37            | 7             | 87         | 0x57            | W             | 119        | 0x77            | w             |
+| 24         | 0x18            | CAN           | 56         | 0x38            | 8             | 88         | 0x58            | X             | 120        | 0x78            | x             |
+| 25         | 0x19            | EM            | 57         | 0x39            | 9             | 89         | 0x59            | Y             | 121        | 0x79            | y             |
+| 26         | 0x1A            | SUB           | 58         | 0x3A            | :             | 90         | 0x5A            | Z             | 122        | 0x7A            | z             |
+| 27         | 0x1B            | ESC           | 59         | 0x3B            | ;             | 91         | 0x5B            | [             | 123        | 0x7B            | {             |
+| 28         | 0x1C            | FS            | 60         | 0x3C            | <             | 92         | 0x5C            | \             | 124        | 0x7C            | |             |
+| 29         | 0x1D            | GS            | 61         | 0x3D            | =             | 93         | 0x5D            | ]             | 125        | 0x7D            | }             |
+| 30         | 0x1E            | RS            | 62         | 0x3E            | >             | 94         | 0x5E            | ^             | 126        | 0x7E            | ~             |
+| 31         | 0x1F            | US            | 63         | 0x3F            | ?             | 95         | 0x5F            | _             | 127        | 0x7F            | DEL           |
+| 128        | 0x80            | Ç             | 160        | 0xA0            | á             | 192        | 0xC0            | À             | 224        | 0xE0            | à             |
+| 129        | 0x81            | ü             | 161        | 0xA1            | í             | 193        | 0xC1            | Á             | 225        | 0xE1            | á             |
+| 130        | 0x82            | é             | 162        | 0xA2            | ó             | 194        | 0xC2            | Â             | 226        | 0xE2           
+
+
+Para ver la codificación que estamos utilizando en la Terminal de Windows:
+
+```
+C:\Users\Jonay>chcp
+Página de códigos activa: 850
+```
+
+Si queremos cambiar la codificación de la consola a UTF-8 para soportar más caracteres especiales, puedes hacerlo con el siguiente comando:
+
+```
+C:\Users\Jonay>chcp 65001
+```
+
+Esto cambiará la página de códigos a UTF-8, permitiendo manejar mejor caracteres Unicode.
+
+> __Nota__: recuerda que la codificación afecta cómo se muestran los caracteres en la consola y cómo se manejan archivos de texto, por lo que cambiar a UTF-8 es útil para trabajar con caracteres internacionales de manera más confiable.
