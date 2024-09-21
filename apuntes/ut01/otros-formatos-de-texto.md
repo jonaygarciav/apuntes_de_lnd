@@ -36,6 +36,51 @@ Ejemplo básico de JSON:
 }
 ```
 
+__Objetos JSON__
+
+Los _objetos_ en JSON son una colección de pares clave-valor. Se encierran entre llaves «{}» y cada clave se separa de su valor correspondiente por dos puntos «:». Los pares clave-valor se separan entre sí por comas «,».
+
+Un ejemplo de _objeto_ JSON lo podemos ver en el código siguiente:
+
+```
+{
+    'nombre': 'Facundo',
+    'edad': 30,
+    'ciudad': 'Madrid'
+}
+```
+
+Este _objeto_ JSON consta de tres pares clave-valor:
+
+* La clave _nombre_ tiene el valor _Facundo_.
+* La clave _edad_ es _30_.
+* La clave _ciudad_ tiene el valor _Madrid_.
+
+__Arreglos JSON__
+
+Los _arreglos_ o _arrays_ JSON son simples colecciones de elementos. Estos elementos pueden ser datos como números o cadenas pero también otros arreglos u objetos JSON.
+
+Los _arrays_ se encierran entre corchetes «[]» y los valores se separan entre sí por comas «,». Cada objeto en el array representa una persona, con información sobre su nombre, edad y ciudad:
+
+```
+[
+    {
+        'nombre': 'Facundo',
+        'edad': 30,
+        'ciudad': 'Madrid'
+    },
+    {
+        'nombre': 'Saturnina',
+        'edad': 98,
+        'ciudad': 'Barcelona'
+    },
+    {
+        'nombre': 'Adoración',
+        'edad': 55,
+        'ciudad': 'Sevilla'
+    }
+]
+```
 Aplicaciones comunes de JSON:
 * __Intercambio de Datos en APIs__: JSON es el formato más común para enviar y recibir datos entre un servidor y un cliente en aplicaciones web, especialmente en servicios RESTful.
 * __Configuración de aplicaciones__: JSON se utiliza frecuentemente para archivos de configuración debido a su legibilidad y facilidad de manipulación.
@@ -50,7 +95,124 @@ Desventajas de JSON:
 * __Sin comentarios__: JSON no soporta comentarios, lo que puede dificultar la documentación de los datos directamente en el archivo.
 * __Menos estricto que XML__: JSON carece de validación de esquema incorporada, lo que significa que los datos mal formateados pueden causar errores durante el procesamiento.
 
+Comparación con otros formatos de datos:
+* __JSON vs XML__: aunque XML fue inicialmente utilizado para los servicios web y el intercambio de datos en general, con el tiempo JSON ha venido desplazando a XML debido a su simplicidad y eficiencia. JSON tiene una sintaxis más simple y es más fácil de leer y escribir que XML. Además, JSON es más ligero, no solo para su transmisión sino también para el procesamiento de los datos. Por ello resulta más eficiente.
+* __JSON vs CSV__: CSV es otro formato comúnmente utilizado para el intercambio de datos, especialmente útil para exportar información. Aunque CSV es simple y ligero, no es tan fácil de leer y asimilar qué función realiza cada dato. Además CSV no resulta nada flexible, porque las columnas siempre tienen una serie limitada y definida de valores. En cambio JSON soporta estructuras de datos complejas y variables entre sí. 
+
 JSON ha revolucionado la forma en que las aplicaciones web y los sistemas distribuidos manejan los datos, convirtiéndose en un estándar debido a su simplicidad y eficacia. Desde la configuración de aplicaciones hasta la transferencia de datos en tiempo real, JSON sigue siendo una herramienta esencial en el desarrollo moderno.
+
+A continuación, se muestra el código de un fichero en Python llamado _lee-json.py_ que lee el archivo en formato JSON _usuarios.json_ y lo muestra por pantalla:
+
+```
+import json
+
+# Nombre del fichero JSON que se va a leer
+nombre_fichero = 'usuarios.json'
+
+# Función para abrir y leer el fichero JSON
+def leer_fichero_json(fichero):
+    try:
+        # Abrir el fichero en modo lectura
+        with open(fichero, 'r', encoding='utf-8') as archivo:
+            # Cargar el contenido del JSON
+            datos = json.load(archivo)
+            
+            # Comprobar si los datos son una lista
+            if isinstance(datos, list):
+                print("Contenido del archivo JSON:")
+                # Iterar sobre cada elemento de la lista
+                for i, item in enumerate(datos, start=1):
+                    print(f"\nRegistro {i}:")
+                    for clave, valor in item.items():
+                        print(f"{clave}: {valor}")
+            else:
+                print("El contenido del JSON no es una lista.")
+                
+    except FileNotFoundError:
+        print(f"El archivo {fichero} no se encontró.")
+    except json.JSONDecodeError:
+        print("Error al decodificar el archivo JSON.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
+# Llamada a la función para leer el fichero JSON
+leer_fichero_json(nombre_fichero)
+```
+
+El programa _usuarios.json_ tiene el siguiente contenido:
+
+```
+$ cat alumnos.json 
+[
+    {
+        "ID": 1,
+        "Nombre": "Juan Pérez",
+        "Correo": "juan.perez@mail.com",
+        "Fecha de Registro": "2024-09-15"
+    },
+    {
+        "ID": 2,
+        "Nombre": "María García",
+        "Correo": "maria.garcia@mail.com",
+        "Fecha de Registro": "2024-09-16"
+    },
+    {
+        "ID": 3,
+        "Nombre": "Carlos Sánchez",
+        "Correo": "carlos.sanchez@mail.com",
+        "Fecha de Registro": "2024-09-17"
+    },
+    {
+        "ID": 4,
+        "Nombre": "Ana López",
+        "Correo": "ana.lopez@mail.com",
+        "Fecha de Registro": "2024-09-18"
+    },
+    {
+        "ID": 5,
+        "Nombre": "Luis Fernández",
+        "Correo": "luis.fernandez@mail.com",
+        "Fecha de Registro": "2024-09-19"
+    }
+]
+```
+
+La ejecución del programa _lee-json.py_ sería la siguiente:
+
+```
+$ python3 lee-json.py 
+Contenido del archivo JSON:
+
+Registro 1:
+ID: 1
+Nombre: Juan Pérez
+Correo: juan.perez@mail.com
+Fecha de Registro: 2024-09-15
+
+Registro 2:
+ID: 2
+Nombre: María García
+Correo: maria.garcia@mail.com
+Fecha de Registro: 2024-09-16
+
+Registro 3:
+ID: 3
+Nombre: Carlos Sánchez
+Correo: carlos.sanchez@mail.com
+Fecha de Registro: 2024-09-17
+
+Registro 4:
+ID: 4
+Nombre: Ana López
+Correo: ana.lopez@mail.com
+Fecha de Registro: 2024-09-18
+
+Registro 5:
+ID: 5
+Nombre: Luis Fernández
+Correo: luis.fernandez@mail.com
+Fecha de Registro: 2024-09-19
+```
 
 ## YAML
 

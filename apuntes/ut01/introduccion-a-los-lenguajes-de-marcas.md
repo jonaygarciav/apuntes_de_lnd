@@ -289,6 +289,8 @@ La siguiente tabla muestra las distintas versiones de HTML y su año de lanzamie
 | HTML 4.0    | 1997               | HyperText Markup Language (HTML) 4.0      |
 | HTML 4.01   | 1999               | HyperText Markup Language (HTML) 4.01     |
 | HTML 5      | 2014               | HTML5                                     |
+| HTML 5.1    | 2016               | HTML 5.1                                  |
+| HTML 5.2    | 2017               | HTML 5.2                                  |
 
 Descripción de las versiones:
 * __HTML 1.0__: primera versión oficial de HTML, creada por Tim Berners-Lee, estableciendo las bases para la estructura de los documentos web.
