@@ -271,7 +271,7 @@ __TOML__ es un lenguaje de configuración diseñado para ser fácil de leer y es
 Características principales de TOML:
 * __Legibilidad__: TOML está diseñado para ser intuitivo y fácil de leer, con una sintaxis que recuerda a INI pero con mayor estructura y capacidad de anidación.
 * __Estructura clara__: utiliza secciones, tablas y pares clave-valor, lo que hace que el formato sea limpio y bien organizado.
-* __Compatibilidad con múltiples tipos de datos: soporta tipos de datos comunes como cadenas, números, booleanos, fechas, arreglos, y tablas, lo que permite la creación de configuraciones complejas de manera sencilla.
+* __Compatibilidad con múltiples tipos de datos__: soporta tipos de datos comunes como cadenas, números, booleanos, fechas, arreglos, y tablas, lo que permite la creación de configuraciones complejas de manera sencilla.
 
 Estructura básica de TOML:
 * __Tablas__: las tablas son secciones de configuración definidas por corchetes [].
