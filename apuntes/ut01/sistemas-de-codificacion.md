@@ -12,7 +12,7 @@
 
 ## Introducción
 
-#TODO
+Los _sistemas de codificación_ son métodos utilizados para representar caracteres, símbolos, y datos en un formato que pueda ser entendido y procesado por ordenadores y otros dispositivos digitales. Estos sistemas asignan un valor numérico a cada carácter, permitiendo que el texto, los números y otros símbolos se almacenen y transmitan electrónicamente. Los _sistemas de codificación_ son fundamentales en la informática, ya que permiten la comunicación y el procesamiento de datos en múltiples plataformas y lenguajes. Sin una codificación adecuada, los textos y símbolos podrían interpretarse incorrectamente, lo que llevaría a errores en la visualización y
 
 ## Sistemas de codificación numéricos
 
