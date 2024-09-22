@@ -8,6 +8,7 @@
   * Codigo ASCII
   * ASCII Extendido
   * Unicode
+  * Codificación en Sitemas Windows
 
 ## Introducción
 
@@ -379,7 +380,7 @@ Conclusión:
 
 Estas codificaciones permiten a Unicode representar y gestionar texto de cualquier idioma de manera coherente y flexible, facilitando la comunicación y la interoperabilidad en la era digital.
 
-## Codificación en Ssitemas Windows
+## Codificación en Sitemas Windows
 
 Windows utiliza varias páginas de códigos (code pages) para manejar la representación de caracteres en diferentes idiomas y contextos. Estas páginas de códigos determinan cómo se interpretan los bytes en archivos de texto, aplicaciones de consola, y otros entornos.
 
