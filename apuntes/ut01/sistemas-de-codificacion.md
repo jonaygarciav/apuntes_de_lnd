@@ -13,9 +13,9 @@
 
 #TODO
 
-## Bits como números
+## Sistemas de codificación numéricos
 
-### Sistemas de codificación numéricos
+### Sistema binario
 
 El _sistema binario_ es un sistema de numeración en el que solo se utilizan dos dígitos: el 0 y el 1. Este sistema es la base de la informática, ya que los ordenadores trabajan internamente con este formato debido a su facilidad para representar estados de encendido y apagado (1 y 0).
 
