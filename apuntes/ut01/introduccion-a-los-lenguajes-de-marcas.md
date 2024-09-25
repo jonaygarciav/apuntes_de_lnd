@@ -83,7 +83,7 @@ Características principales de SGML:
 * __Extensibilidad__: SGML no define etiquetas específicas, sino que permite a los usuarios crear sus propios conjuntos de etiquetas según las necesidades de sus documentos, haciéndolo muy flexible y adaptable a diferentes sectores.
 Separación de Contenido y Presentación: SGML enfoca su estructura en el contenido del documento, dejando la presentación a herramientas externas, lo cual facilita la reutilización de los datos.
 * __Definición de DTD__ (_Document Type Definition_): SGML utiliza DTDs para definir la estructura, reglas y etiquetas permitidas en un documento. Esto asegura la consistencia y la validez de los documentos estructurados bajo las mismas reglas.
-* __Independencia de Plataforma__: SGML fue diseñado para ser independiente de cualquier sistema operativo o software, lo que lo hace ideal para la creación de documentos que deben ser intercambiados y utilizados en múltiples entornos.
+* __Independencia de plataforma__: SGML fue diseñado para ser independiente de cualquier sistema operativo o software, lo que lo hace ideal para la creación de documentos que deben ser intercambiados y utilizados en múltiples entornos.
 
 _SGML_ fue ampliamente utilizado en la industria de la publicación técnica y en la creación de manuales de usuario, documentación técnica, y bases de datos de documentos en sectores como la aviación y la defensa. Periódicos y revistas utilizaron SGML para manejar la estructura y la gestión del contenido editorial de manera eficiente. Se usó en bibliotecas digitales para definir estructuras estandarizadas de datos, facilitando la búsqueda y recuperación de la información.
 
@@ -130,7 +130,7 @@ El archivo manual.dtd (Document Type Definition) define la estructura y las regl
 <!ELEMENT para (#PCDATA)>
 ```
 
-Explicación de las Definiciones en el manual.dtd:
+Explicación de las definiciones en el fichero _manual.dtd_:
 
 * __ELEMENT manual (title, section+)__: define que el elemento manual debe contener un title y una o más (+) section. Esto establece la estructura básica del documento.
 * __!ELEMENT title (#PCDATA)__: define que el elemento title contiene datos de texto (#PCDATA, Parsed Character Data). Este tipo de datos permite que el título incluya solo texto plano.
@@ -315,8 +315,8 @@ Descripción de las versiones:
 * __XHTML 1.0 y 1.1__: una reformulación de HTML 4.0 siguiendo las reglas de XML para un mayor rigor sintáctico.
 
 Características de XHTML:
-* __XHTML 1.0__: Incluye tres variantes: Strict, Transitional, y Frameset.
-* __XHTML 1.1__: Más modular y adaptable, utilizado principalmente en contextos donde se requiere un marcado limpio y riguroso.
+* __XHTML 1.0__: incluye tres variantes: Strict, Transitional, y Frameset.
+* __XHTML 1.1__: más modular y adaptable, utilizado principalmente en contextos donde se requiere un marcado limpio y riguroso.
 
 * __Sintaxis Estricta__: XHTML exige que todos los elementos estén correctamente anidados y cerrados, y que los nombres de las etiquetas y atributos sean siempre en minúsculas.
 * __Compatibilidad con XML__: XHTML se puede manipular con herramientas XML, lo que facilita la integración de la web con otras tecnologías basadas en XML.
