@@ -336,7 +336,7 @@ La siguiente tabla contiene una pequeña muestra de caracteres de la codificaci�
 | /                     | \u002F           | 2F                      | 🍀                       | \u1F340          | F0 9F 8D 80             |
 | .                     | \u002E           | 2E                      | 🎨                       | \u1F3A8          | F0 9F 8E A8             |
 | ,                     | \u002C           | 2C                      | 🎁                       | \u1F381          | F0 9F 8E 81             |
-| !                     | \u0021           | 21                      | 🌍                       | \u1F30D          |
+| !                     | \u0021           | 21                      | 🌍                       | \u1F30D          | F0 9F 8C 8D             |
 
 Ventajas:
 * __Ahorra espacio__: utiliza solo un byte para los caracteres más comunes.
