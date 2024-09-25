@@ -18,9 +18,9 @@ Los _sistemas de codificación_ son métodos utilizados para representar caracte
 
 ### Sistema binario
 
-El _sistema binario_ es un sistema de numeración en el que solo se utilizan dos dígitos: el 0 y el 1. Este sistema es la base de la informática, ya que los ordenadores trabajan internamente con este formato debido a su facilidad para representar estados de encendido y apagado (1 y 0).
+El _sistema binario_ es un sistema de numeración en el que solamente se utilizan dos dígitos: el 0 y el 1. Este sistema es la base de la informática, ya que los ordenadores trabajan internamente con este formato debido a su facilidad para representar estados de encendido y apagado (1 y 0).
 
-A continuación se muestra una tabla con la conversión de los números en decimal del 0 al 15 a binario en grupos de 8 bits:
+A continuación, se muestra una tabla con la conversión de los números en decimal del 0 al 15 a binario en grupos de 8 bits:
 
 | **Decimal** | **Binario**   | **Decimal** | **Binario**   |
 |-------------|---------------|-------------|---------------|
@@ -42,7 +42,7 @@ El _sistema hexadecimal_ es un sistema de numeración que utiliza 16 dígitos: 0
 | **Binario**         | **Hexadecimal** | **Binario**         | **Hexadecimal** |
 |---------------------|-----------------|---------------------|-----------------|
 | 0000                | 0               | 1000                | 8               |
-| 0001                | 1               | 1000                | 8               |
+| 0001                | 1               | 1001                | 9               |
 | 0010                | 2               | 1010                | A               |
 | 0011                | 3               | 1011                | B               |
 | 0100                | 4               | 1100                | C               |
@@ -123,31 +123,30 @@ A continuación, se muestra la tabla de caracteres ASCII:
 | 48               | 0110000              | 30              | 0                           | 112              | 1110000              | 70              | p                           |
 | 49               | 0110001              |
 
-* __Caracteres Imprimibles__: son aquellos que representan símbolos visibles que se pueden mostrar en la pantalla o imprimir en papel. Estos incluyen letras, números, signos de puntuación y símbolos especiales.
+* __Caracteres imprimibles__: son aquellos que representan símbolos visibles que se pueden mostrar en la pantalla o imprimir en papel. Estos incluyen letras, números, signos de puntuación y símbolos especiales.
 * __Caracteres de control__:  son aquellos que no se representan como símbolos visibles, sino que se utilizan para controlar dispositivos (como impresoras) o para gestionar el flujo de datos en la comunicación. Estos caracteres suelen realizar funciones específicas como mover el cursor, iniciar una nueva línea o enviar comandos a periféricos.
-
 
 Ventajas de ASCII:
 
-* __Simplicidad y Facilidad de Uso__: ASCII es fácil de entender y utilizar, ya que asigna un valor numérico a cada carácter común, como letras, números y símbolos.
-* __Compatibilidad Universal__: debido a su antigüedad y uso extensivo, ASCII es compatible con casi todos los sistemas informáticos y dispositivos de comunicación.
-* __Tamaño Reducido__: utiliza solo 7 bits por carácter, lo que lo hace eficiente en términos de almacenamiento y procesamiento de datos.
-* __Estándar para la Comunicación__: ASCII se convirtió en un estándar para la transmisión de texto en comunicaciones y protocolos de red, como SMTP para correo electrónico.
-* __Soporte para Caracteres de Control__ : incluye caracteres de control que permiten manejar tareas como tabulaciones, saltos de línea y comandos de dispositivos periféricos.
-* __Base para Otros Códigos__: ASCII sirvió de base para la creación de otros estándares, como ASCII Extendido y UTF-8, que amplían el soporte a caracteres de diferentes idiomas.
+* __Simplicidad y facilidad de uso__: ASCII es fácil de entender y utilizar, ya que asigna un valor numérico a cada carácter común, como letras, números y símbolos.
+* __Compatibilidad universal__: debido a su antigüedad y uso extensivo, ASCII es compatible con casi todos los sistemas informáticos y dispositivos de comunicación.
+* __Tamaño reducido__: utiliza solo 7 bits por carácter, lo que lo hace eficiente en términos de almacenamiento y procesamiento de datos.
+* __Estándar para la comunicación__: ASCII se convirtió en un estándar para la transmisión de texto en comunicaciones y protocolos de red, como SMTP para correo electrónico.
+* __Soporte para caracteres de control__ : incluye caracteres de control que permiten manejar tareas como tabulaciones, saltos de línea y comandos de dispositivos periféricos.
+* __Base para otros códigos__: ASCII sirvió de base para la creación de otros estándares, como ASCII Extendido y UTF-8, que amplían el soporte a caracteres de diferentes idiomas.
 
 Desventajas de ASCII:
 
 * __Limitación de caracteres__: ASCII solo puede representar 128 caracteres, lo que lo hace insuficiente para manejar idiomas con alfabetos más grandes, como chino, árabe o cualquier otro idioma que no use el alfabeto latino.
 * __Sin soporte para caracteres especiales y acentos__: no incluye caracteres con acentos, símbolos de monedas internacionales, o letras no latinas, lo que limita su utilidad en aplicaciones globales.
 * __Obsoleto para aplicaciones modernas__: ASCII no puede manejar emojis, caracteres especiales modernos o gráficos, que son comunes en la comunicación actual.
-* __No escalable__: la limitación de 7 bits hace que ASCII no pueda ampliarse sin perder compatibilidad con los sistemas que lo utilizan, de ahí la necesidad de códigos más completos como Unicode.
+* __No escalable__: la limitación de 7 bits hace que ASCII no pueda ampliarse sin perder compatibilidad con los sistemas que lo utilizan, de ahí la necesidad de códigos más completos como _ASCII Extendido_.
 
 ### ASCII Extendido
 
-__ASCII Extendido__ es una ampliación del código ASCII original de 7 bits que añade 128 caracteres adicionales, ampliando así el rango de 0 a 255 (utilizando 8 bits en lugar de 7). Esta extensión permite incluir más símbolos, caracteres gráficos, acentos y letras especiales que no están presentes en el estándar ASCII básico.
+__ASCII Extendido__ es una ampliación del código ASCII original de 7 bits que añade 128 caracteres adicionales, ampliando así el rango de 0 a 255 (utilizando 8 bits en lugar de 7). Esta extensión permite incluir más símbolos, caracteres gráficos, acentos y letras especiales que no están presentes en el estándar _ASCII_ básico.
 
-Los primeros 128 caracters de código ASCII Extendido coinciden con los 128 caracteres de ASCII, con lo cual el código ASCII Extendido es compatible con el código ASCII, mientras que los últimos 128 caracteres se utilizan para representar distintos caracteres extra que no se encuentran en la codificación ASCII en función de la zona geográfica concreta. Hay distintos tipos de formatos ASCII Extendido en función de la zona geográfica:
+Los primeros 128 caracters de código ASCII Extendido coinciden con los 128 caracteres de ASCII, con lo cual el código _ASCII Extendido_ es compatible con el código _ASCII_, mientras que los últimos 128 caracteres se utilizan para representar distintos caracteres extra que no se encuentran en la codificación _ASCII_ en función de la zona geográfica concreta. Hay distintos tipos de formatos _ASCII Extendido_ en función de la zona geográfica:
 
 * __ISO 8859-1__: ASCII extendido para Europa Occidental (incluye símbolos como ñ o β)
 * __ISO 8859-2__: ASCII extendido para Europa Central y del Este (incluye símbolos como Ź o č)
@@ -166,88 +165,95 @@ Los primeros 128 caracters de código ASCII Extendido coinciden con los 128 cara
 * __ISO 8859-15__: ASCII extendido, versión de 8859-1 que incluye el símbolo del euro y símbolos de lenguas bálticas. Es el recomendado actualmente para Europa Occidental.
 * __ISO 8859-16__: ASCII extendido, versión de 8859-1 pensada para los países del sureste de Europa
 
-A continuación, se muestra la tabla de caracteres ASCII Extendido 8859-15:
+> __Nota__: para el alfabeto español se usa la codificación ASCII Extendido _ISO 8859-15_.
 
-| **Código ASCII Extendido** | **Binario (8 bits)** | **Hexadecimal** | **Carácter** | **Código ASCII Extendido** | **Binario (8 bits)** | **Hexadecimal** | **Carácter**                |
-|----------------------------|----------------------|-----------------|--------------|----------------------------|----------------------|-----------------|-----------------------------|
-| 128                        | 10000000             | 80              | €            | 192                        | 11000000             | C0              | À                           |
-| 129                        | 10000001             | 81              |              | 193                        | 11000001             | C1              | Á                           |
-| 130                        | 10000010             | 82              | ‚            | 194                        | 11000010             | C2              | Â                           |
-| 131                        | 10000011             | 83              | ƒ            | 195                        | 11000011             | C3              | Ã                           |
-| 132                        | 10000100             | 84              | „            | 196                        | 11000100             | C4              | Ä                           |
-| 133                        | 10000101             | 85              | …            | 197                        | 11000101             | C5              | Å                           |
-| 134                        | 10000110             | 86              | †            | 198                        | 11000110             | C6              | Æ                           |
-| 135                        | 10000111             | 87              | ‡            | 199                        | 11000111             | C7              | Ç                           |
-| 136                        | 10001000             | 88              | ˆ            | 200                        | 11001000             | C8              | È                           |
-| 137                        | 10001001             | 89              | ‰            | 201                        | 11001001             | C9              | É                           |
-| 138                        | 10001010             | 8A              | Š            | 202                        | 11001010             | CA              | Ê                           |
-| 139                        | 10001011             | 8B              | ‹            | 203                        | 11001011             | CB              | Ë                           |
-| 140                        | 10001100             | 8C              | Œ            | 204                        | 11001100             | CC              | Ì                           |
-| 141                        | 10001101             | 8D              |              | 205                        | 11001101             | CD              | Í                           |
-| 142                        | 10001110             | 8E              | Ž            | 206                        | 11001110             | CE              | Î                           |
-| 143                        | 10001111             | 8F              |              | 207                        | 11001111             | CF              | Ï                           |
-| 144                        | 10010000             | 90              |              | 208                        | 11100000             | D0              | Ð                           |
-| 145                        | 10010001             | 91              | ‘            | 209                        | 11100001             | D1              | Ñ                           |
-| 146                        | 10010010             | 92              | ’            | 210                        | 11100010             | D2              | Ò                           |
-| 147                        | 10010011             | 93              | “            | 211                        | 11100011             | D3              | Ó                           |
-| 148                        | 10010100             | 94              | ”            | 212                        | 11100100             | D4              | Ô                           |
-| 149                        | 10010101             | 95              | •            | 213                        | 11100101             | D5              | Õ                           |
-| 150                        | 10010110             | 96              | –            | 214                        | 11100110             | D6              | Ö                           |
-| 151                        | 10010111             | 97              | —            | 215                        | 11100111             | D7              | ×                           |
-| 152                        | 10011000             | 98              | ˜            | 216                        | 11101000             | D8              | Ø                           |
-| 153                        | 10011001             | 99              | ™            | 217                        | 11101001             | D9              | Ù                           |
-| 154                        | 10011010             | 9A              | š            | 218                        | 11101010             | DA              | Ú                           |
-| 155                        | 10011011             | 9B              | ›            | 219                        | 11101011             | DB              | Û                           |
-| 156                        | 10011100             | 9C              | œ            | 220                        | 11101100             | DC              | Ü                           |
-| 157                        | 10011101             | 9D              |              | 221                        | 11101101             | DD              | Ý                           |
-| 158                        | 10011110             | 9E              | ž            | 222                        | 11101110             | DE              | Þ                           |
-| 159                        | 10011111             | 9F              | Ÿ            | 223                        | 11101111             | DF              | ß                           |
-| 160                        | 10100000             | A0              |              | 224                        | 11110000             | E0              | à                           |
-| 161                        | 10100001             | A1              | ¡            | 225                        | 11110001             | E1              | á                           |
-| 162                        | 10100010             | A2              | ¢            | 226                        | 11110010             | E2              | â                           |
-| 163                        | 10100011             | A3              | £            | 227                        | 11110011             | E3              | ã                           |
-| 164                        | 10100100             | A4              | ¤            | 228                        | 11110100             | E4              | ä                           |
-| 165                        | 10100101             | A5              | ¥            | 229                        | 11110101             | E5              | å                           |
-| 166                        | 10100110             | A6              | Š            | 230                        | 11110110             | E6              | æ                           |
-| 167                        | 10100111             | A7              | §            | 231                        | 11110111             | E7              | ç                           |
-| 168                        | 10101000             | A8              | ¨            | 232                        | 11111000             | E8              | è                           |
-| 169                        | 10101001             | A9              | ©            | 233                        | 11111001             | E9              | é                           |
-| 170                        | 10101010             | AA              | ª            | 234                        | 11111010             | EA              | ê                           |
-| 171                        | 10101011             | AB              | «            | 235                        | 11111011             | EB              | ë                           |
-| 172                        | 10101100             | AC              | ¬            | 236                        | 11111100             | EC              | ì                           |
-| 173                        | 10101101             | AD              |              | 237                        | 11111101             | ED              | í                           |
-| 174                        | 10101110             | AE              | ®            | 238                        | 11111110             | EE              | î                           |
-| 175                        | 10101111             | AF              | ¯            | 239                        | 11111111             | EF              | ï                           |
-| 176                        | 10110000             | B0              | °            |                          |                      |                 |                             |
-| 177                        | 10110001             | B1              | ±            |                          |                      |                 |                             |
-| 178                        | 10110010             | B2              | ²            |                          |                      |                 |                             |
-| 179                        | 10110011             | B3              | ³            |                          |                      |                 |                             |
-| 180                        | 10110100             | B4              | ´            |                          |                      |                 |                             |
-| 181                        | 10110101             | B5              | µ            |                          |                      |                 |                             |
-| 182                        | 10110110             | B6              | ¶            |                          |                      |                 |                             |
-| 183                        | 10110111             | B7              | ·            |                          |                      |                 |                             |
-| 184                        | 10111000             | B8              | ¸            |                          |                      |                 |                             |
-| 185                        | 10111001             | B9              | ¹            |                          |                      |                 |                             |
-| 186                        | 101
+A continuación, se muestra la tabla de caracteres ASCII Extendido _ISO 8859-15_:
+
+| **Código ASCII Extendido** | **Binario (8 bits)** | **Hexadecimal** | **Carácter** | **Código ASCII Extendido** | **Binario (8 bits)** | **Hexadecimal** | **Carácter** |
+|----------------------------|----------------------|-----------------|--------------|----------------------------|----------------------|-----------------|--------------|
+| 128                        | 10000000             | 80              | €            | 192                        | 11000000             | C0              | À            |
+| 129                        | 10000001             | 81              |              | 193                        | 11000001             | C1              | Á            |
+| 130                        | 10000010             | 82              | ‚            | 194                        | 11000010             | C2              | Â            |
+| 131                        | 10000011             | 83              | ƒ            | 195                        | 11000011             | C3              | Ã            |
+| 132                        | 10000100             | 84              | „            | 196                        | 11000100             | C4              | Ä            |
+| 133                        | 10000101             | 85              | …            | 197                        | 11000101             | C5              | Å            |
+| 134                        | 10000110             | 86              | †            | 198                        | 11000110             | C6              | Æ            |
+| 135                        | 10000111             | 87              | ‡            | 199                        | 11000111             | C7              | Ç            |
+| 136                        | 10001000             | 88              | ˆ            | 200                        | 11001000             | C8              | È            |
+| 137                        | 10001001             | 89              | ‰            | 201                        | 11001001             | C9              | É            |
+| 138                        | 10001010             | 8A              | Š            | 202                        | 11001010             | CA              | Ê            |
+| 139                        | 10001011             | 8B              | ‹            | 203                        | 11001011             | CB              | Ë            |
+| 140                        | 10001100             | 8C              | Œ            | 204                        | 11001100             | CC              | Ì            |
+| 141                        | 10001101             | 8D              |              | 205                        | 11001101             | CD              | Í            |
+| 142                        | 10001110             | 8E              | Ž            | 206                        | 11001110             | CE              | Î            |
+| 143                        | 10001111             | 8F              |              | 207                        | 11001111             | CF              | Ï            |
+| 144                        | 10010000             | 90              |              | 208                        | 11100000             | D0              | Ð            |
+| 145                        | 10010001             | 91              | ‘            | 209                        | 11100001             | D1              | Ñ            |
+| 146                        | 10010010             | 92              | ’            | 210                        | 11100010             | D2              | Ò            |
+| 147                        | 10010011             | 93              | “            | 211                        | 11100011             | D3              | Ó            |
+| 148                        | 10010100             | 94              | ”            | 212                        | 11100100             | D4              | Ô            |
+| 149                        | 10010101             | 95              | •            | 213                        | 11100101             | D5              | Õ            |
+| 150                        | 10010110             | 96              | –            | 214                        | 11100110             | D6              | Ö            |
+| 151                        | 10010111             | 97              | —            | 215                        | 11100111             | D7              | ×            |
+| 152                        | 10011000             | 98              | ˜            | 216                        | 11101000             | D8              | Ø            |
+| 153                        | 10011001             | 99              | ™            | 217                        | 11101001             | D9              | Ù            |
+| 154                        | 10011010             | 9A              | š            | 218                        | 11101010             | DA              | Ú            |
+| 155                        | 10011011             | 9B              | ›            | 219                        | 11101011             | DB              | Û            |
+| 156                        | 10011100             | 9C              | œ            | 220                        | 11101100             | DC              | Ü            |
+| 157                        | 10011101             | 9D              |              | 221                        | 11101101             | DD              | Ý            |
+| 158                        | 10011110             | 9E              | ž            | 222                        | 11101110             | DE              | Þ            |
+| 159                        | 10011111             | 9F              | Ÿ            | 223                        | 11101111             | DF              | ß            |
+| 160                        | 10100000             | A0              |              | 224                        | 11110000             | E0              | à            |
+| 161                        | 10100001             | A1              | ¡            | 225                        | 11110001             | E1              | á            |
+| 162                        | 10100010             | A2              | ¢            | 226                        | 11110010             | E2              | â            |
+| 163                        | 10100011             | A3              | £            | 227                        | 11110011             | E3              | ã            |
+| 164                        | 10100100             | A4              | ¤            | 228                        | 11110100             | E4              | ä            |
+| 165                        | 10100101             | A5              | ¥            | 229                        | 11110101             | E5              | å            |
+| 166                        | 10100110             | A6              | Š            | 230                        | 11110110             | E6              | æ            |
+| 167                        | 10100111             | A7              | §            | 231                        | 11110111             | E7              | ç            |
+| 168                        | 10101000             | A8              | ¨            | 232                        | 11111000             | E8              | è            |
+| 169                        | 10101001             | A9              | ©            | 233                        | 11111001             | E9              | é            |
+| 170                        | 10101010             | AA              | ª            | 234                        | 11111010             | EA              | ê            |
+| 171                        | 10101011             | AB              | «            | 235                        | 11111011             | EB              | ë            |
+| 172                        | 10101100             | AC              | ¬            | 236                        | 11111100             | EC              | ì            |
+| 173                        | 10101101             | AD              | ­            | 237                        | 11111101             | ED              | í            |
+| 174                        | 10101110             | AE              | ®            | 238                        | 11111110             | EE              | î            |
+| 175                        | 10101111             | AF              | ¯            | 239                        | 11111111             | EF              | ï            |
+| 176                        | 10110000             | B0              | °            | 240                        | 11110000             | F0              | ð            |
+| 177                        | 10110001             | B1              | ±            | 241                        | 11110001             | F1              | ñ            |
+| 178                        | 10110010             | B2              | ²            | 242                        | 11110010             | F2              | ò            |
+| 179                        | 10110011             | B3              | ³            | 243                        | 11110011             | F3              | ó            |
+| 180                        | 10110100             | B4              | ´            | 244                        | 11110100             | F4              | ô            |
+| 181                        | 10110101             | B5              | µ            | 245                        | 11110101             | F5              | õ            |
+| 182                        | 10110110             | B6              | ¶            | 246                        | 11110110             | F6              | ö            |
+| 183                        | 10110111             | B7              | ·            | 247                        | 11110111             | F7              | ÷            |
+| 184                        | 10111000             | B8              | ¸            | 248                        | 11111000             | F8              | ø            |
+| 185                        | 10111001             | B9              | ¹            | 249                        | 11111001             | F9              | ù            |
+| 186                        | 10111010             | BA              | º            | 250                        | 11111010             | FA              | ú            |
+| 187                        | 10111011             | BB              | »            | 251                        | 11111011             | FB              | û            |
+| 188                        | 10111100             | BC              | ¼            | 252                        | 11111100             | FC              | ü            |
+| 189                        | 10111101             | BD              | ½            | 253                        | 11111101             | FD              | ý            |
+| 190                        | 10111110             | BE              | ¾            | 254                        | 11111110             | FE              | þ            |
+| 191                        | 10111111             | BF              | ¿            | 255                        | 11111111             | FF              | ÿ            |
 
 Ventajas del ASCII extendido:
 
-* Mayor Soporte de Caracteres Especiales: incluye caracteres adicionales como letras con acentos, diéresis, símbolos de moneda y otros caracteres gráficos, lo que facilita la escritura en varios idiomas europeos.
-* Compatibilidad con Sistemas Antiguos: fue ampliamente utilizado en sistemas operativos antiguos como MS-DOS y primeras versiones de Windows, lo que lo hace útil para mantener la compatibilidad con software y hardware legados.
-* Representación de Símbolos Gráficos: proporciona varios símbolos gráficos que permitieron crear interfaces de usuario y gráficos simples en los sistemas de texto antiguos.
-* Soporte para Símbolos de Moneda: incluye símbolos de moneda como el euro (€), libra (£) y yen (¥), lo cual es útil para aplicaciones financieras básicas.
-* Mayor Flexibilidad Lingüística: permite escribir en idiomas europeos, con acceso a caracteres que no están presentes en el ASCII estándar, como las letras acentuadas y otros símbolos necesarios para el alemán, español, francés, etc.
+* __Mayor soporte de caracteres especiales__: incluye caracteres adicionales como letras con acentos, diéresis, símbolos de moneda y otros caracteres gráficos, lo que facilita la escritura en varios idiomas europeos.
+* __Compatibilidad con sistemas antiguos__: fue ampliamente utilizado en sistemas operativos antiguos como MS-DOS y primeras versiones de Windows, lo que lo hace útil para mantener la compatibilidad con software y hardware legados.
+* __Representación de símbolos gráficos__: proporciona varios símbolos gráficos que permitieron crear interfaces de usuario y gráficos simples en los sistemas de texto antiguos.
+* __Soporte para símbolos de moneda__: incluye símbolos de moneda como el euro (€), libra (£) y yen (¥), lo cual es útil para aplicaciones financieras básicas.
+* __Mayor flexibilidad lingüística__: permite escribir en idiomas europeos, con acceso a caracteres que no están presentes en el ASCII estándar, como las letras acentuadas y otros símbolos necesarios para el alemán, español, francés, etc.
 
 Desventajas del ASCII Extendido: 
 
-* __Falta de Estandarización Universal__: no existe una única versión del ASCII extendido; diferentes versiones y variantes existen (como ISO 8859-1, ISO 8859-15), lo que puede causar inconsistencias y problemas de compatibilidad entre sistemas.
+* __Falta de estandarización universal__: no existe una única versión del ASCII extendido; lo que puede causar inconsistencias y problemas de compatibilidad entre sistemas.
 * __Limitaciones en la codificación de idiomas globales__: a pesar de su extensión, no cubre muchos idiomas no europeos, como el chino, japonés, árabe, o ruso, limitando su uso en un contexto verdaderamente internacional.
-* __Obsoleto en sistemas modernos__: con la introducción de Unicode, que soporta miles de caracteres de todos los idiomas, el ASCII extendido ha quedado obsoleto y rara vez se utiliza en aplicaciones modernas.
 * __Problemas de codificación y pérdida de datos__: los problemas de compatibilidad entre diferentes versiones de ASCII extendido pueden llevar a la pérdida de datos o caracteres incorrectamente interpretados, especialmente en la migración de datos antiguos a sistemas modernos.
-* __Limitado a 8 Bits__: a pesar de su extensión, sigue estando limitado a 8 bits, lo que restringe el número total de caracteres a 256, insuficiente para cubrir todas las necesidades de representación de texto y símbolos en la actualidad.
-* __Incompatibilidad con estándares modernos__: no es compatible con Unicode, lo que dificulta la integración con sistemas y aplicaciones actuales que dependen de este estándar más amplio y flexible.
+* __Limitado a 8 bits__: a pesar de su extensión, sigue estando limitado a 8 bits, lo que restringe el número total de caracteres a 256, insuficiente para cubrir todas las necesidades de representación de texto y símbolos en la actualidad.
+* __Incompatibilidad con estándares modernos__: no es compatible con Unicode (parcialmente con _UTF-8_), lo que dificulta la integración con sistemas y aplicaciones actuales que dependen de este estándar más amplio y flexible.
+* __Obsoleto en sistemas modernos__: con la introducción de Unicode, que soporta miles de caracteres de todos los idiomas, el ASCII Extendido ha quedado obsoleto y rara vez se utiliza en aplicaciones modernas.
 
-El ASCII extendido fue una evolución necesaria del ASCII original, añadiendo soporte para más caracteres y símbolos. Sin embargo, su falta de estandarización y capacidad limitada han llevado a su reemplazo por estándares más robustos como Unicode. Aunque sigue siendo útil para trabajar con sistemas antiguos y específicos, en el contexto moderno, sus desventajas superan las ventajas, especialmente cuando se trata de aplicaciones globales y multilingües.
+> __Notas__: El _ASCII Extendido_ fue una evolución necesaria del ASCII original, añadiendo soporte para más caracteres y símbolos. Sin embargo, su falta de estandarización y capacidad limitada han llevado a su reemplazo por estándares más robustos como Unicode. Aunque sigue siendo útil para trabajar con sistemas antiguos y específicos, en el contexto moderno, sus desventajas superan las ventajas, especialmente cuando se trata de aplicaciones globales y multilingües.
 
 ### Unicode
 
@@ -257,9 +263,8 @@ Características de Unicode:
 * __Universalidad__: soporta la mayoría de los caracteres de todos los lenguajes, incluidos los símbolos, emoticonos y caracteres especiales.
 * __Escalabilidad__: puede representar más de un millón de caracteres diferentes gracias a su estructura flexible.
 * __Compatibilidad__: compatible con ASCII y muchas otras codificaciones, facilitando la interoperabilidad entre sistemas antiguos y modernos.
-* __Codificaciones de Unicode__: UTF-8, UTF-16 y UTF-32
 
-Unicode puede ser codificado de diferentes maneras, siendo las más comunes UTF-8, UTF-16 y UTF-32. Cada una tiene sus propias características, ventajas y desventajas.
+Unicode puede ser codificado de diferentes maneras, siendo las más comunes _UTF-8_, _UTF-16_ y _UTF-32_. Cada una tiene sus propias características, ventajas y desventajas.
 
 __UTF-8 (8-bit Unicode Transformation Format)__
 
@@ -269,7 +274,7 @@ _UTF-8_ es una codificación de longitud variable que utiliza entre 1 y 4 bytes 
 * __Carácter de 3 bytes__: los caracteres de lenguas asiáticas como el chino, japonés o coreano generalmente requieren 3 bytes. Por ejemplo, 日 (Kanji para "sol" en japonés), código UTF-8 E6 97 A5 (Hexadecimal)
 * __Carácter de 4 bytes__: los caracteres especiales como emojis y algunos símbolos raros requieren 4 bytes.  Por ejemplo, 😀 (Emoji de cara sonriente).
 
-A continuación, se muestra la tabla de caracteres ASCII Extendido UTF-8, la cual contiene una pequeña muestra de caracteres:
+La siguiente tabla contiene una pequeña muestra de caracteres de la codificación _UTF-8_:
 
 | **Carácter (1 byte)** | **Código UTF-8** | **Bytes (Hexadecimal)** | **Carácter (3-4 bytes)** | **Código UTF-8** | **Bytes (Hexadecimal)** |
 |-----------------------|------------------|-------------------------|--------------------------|------------------|-------------------------|
@@ -335,7 +340,7 @@ A continuación, se muestra la tabla de caracteres ASCII Extendido UTF-8, la cua
 
 Ventajas:
 * __Ahorra espacio__: utiliza solo un byte para los caracteres más comunes.
-* __Uso extendido__: es la codificación preferida para la web, ya que HTML y muchos otros protocolos están optimizados para UTF-8.
+* __Uso extendido__: es la codificación preferida para la web, ya que HTML y muchos otros protocolos están optimizados para _UTF-8_.
 
 Desventajas:
 * Para caracteres de scripts más complejos (como chino o japonés), requiere más bytes (hasta 4), lo que puede hacer que los archivos sean más grandes.
@@ -362,7 +367,7 @@ Ventajas:
 * No hay ambigüedad en la codificación, ya que cada carácter ocupa siempre 4 bytes.
 
 Desventajas:
-* Uso de memoria extremadamente alto: ocupa mucho más espacio que UTF-8 y UTF-16, lo que lo hace ineficiente para la mayoría de las aplicaciones.
+* Uso de memoria extremadamente alto ya que ocupa mucho más espacio que UTF-8 y UTF-16, lo que lo hace ineficiente para la mayoría de las aplicaciones.
 * Poco utilizado en la web debido a su ineficiencia de almacenamiento.
 
 Comparativa Resumida de UTF-8, UTF-16 y UTF-32:
@@ -382,8 +387,7 @@ Estas codificaciones permiten a Unicode representar y gestionar texto de cualqui
 
 ## Codificación en Sitemas Windows
 
-Windows utiliza varias páginas de códigos (code pages) para manejar la representación de caracteres en diferentes idiomas y contextos. Estas páginas de códigos determinan cómo se interpretan los bytes en archivos de texto, aplicaciones de consola, y otros entornos.
-
+Windows utiliza varias páginas de códigos (code pages) para manejar la representación de caracteres en diferentes idiomas y contextos. Estas páginas de códigos determinan cómo se interpretan los bytes en archivos de texto, aplicaciones de consola, y otros entornos:
 * __Code Page 437__ (_OEM - Estados Unidos_): la página de códigos original de IBM PC para inglés de EE.UU., usada principalmente en DOS. Soporta caracteres ASCII estándar y algunos gráficos de líneas.
 * __Code Page 850__ (_OEM - Multilingüe Latin 1_): una codificación de caracteres usada principalmente en Europa Occidental y América Latina. Es una versión extendida del CP 437 y fue diseñada para soportar más caracteres acentuados y símbolos especiales comunes en lenguas europeas. Incluye caracteres ASCII y amplía con letras * acentuadas y caracteres especiales.
 * __Code Page 1252__ (_ANSI - Latin 1_): similar al CP 850, pero es una codificación Windows estándar (ANSI) usada en aplicaciones gráficas y archivos de texto. Incluye caracteres europeos occidentales, acentuados, símbolos monetarios, y caracteres de control.
@@ -397,80 +401,119 @@ ASCII extendido fue diseñado para proporcionar soporte básico para idiomas eur
 
 Características de Code Page 850:
 
-* __Diseño Multilingüe__: está diseñada para soportar varios idiomas europeos occidentales, incluyendo español, francés, alemán, italiano, y portugués, entre otros.
+* __Diseño multilingüe__: está diseñada para soportar varios idiomas europeos occidentales, incluyendo español, francés, alemán, italiano, y portugués, entre otros.
 * __Compatibilidad__: es compatible con la mayoría de los caracteres utilizados en aplicaciones y sistemas de consola en Windows, especialmente aquellos desarrollados en la era de MS-DOS.
-* __Conjunto de Caracteres__: soporta caracteres ASCII básicos (del 0 al 127), extendiéndose con caracteres latinos acentuados y otros símbolos (del 128 al 255), como "ñ", "á", "é", "í", "ó", "ú", y símbolos como "ç" y "ß".
-* __Uso Común__: se utiliza frecuentemente en la consola de Windows para aplicaciones heredadas o cuando se necesita compatibilidad con sistemas antiguos que no soportan UTF-8 o Unicode.
+* __Conjunto de caracteres__: soporta caracteres ASCII básicos (del 0 al 127), extendiéndose con caracteres latinos acentuados y otros símbolos (del 128 al 255), como "ñ", "á", "é", "í", "ó", "ú", y símbolos como "ç" y "ß".
+* __Uso común__: se utiliza frecuentemente en la consola de Windows para aplicaciones heredadas o cuando se necesita compatibilidad con sistemas antiguos que no soportan UTF-8 o Unicode.
 
 Limitaciones:
-
 * No soporta caracteres de otros alfabetos como cirílico, griego, o caracteres asiáticos.
 * Puede presentar problemas al manejar caracteres especiales que no estén incluidos en su rango, como algunos símbolos modernos o emojis.
 
-jemplos de Caracteres de Code Page 850:
+Ejemplos de caracteres de Code Page 850:
 
-* __Letras Acentuadas__: á (0xA0), é (0x82), í (0xA1), ó (0xA2), ú (0xA3), ñ (0xA4).
-* __Símbolos Especiales__: ç (0x87), ß (0xE1), £ (0x9C), § (0xA7).
-* __Caracteres de Control y Gráficos__: incluye algunos caracteres gráficos como líneas y cuadros, útiles para aplicaciones de consola.
+* __Letras sin acentuadas__: A (0x41), B (0x42), C (0x43), D (0x44).
+* __Letras acentuadas__: á (0xA0), é (0x82), í (0xA1), ó (0xA2), ú (0xA3), ñ (0xA4).
+* __Símbolos especiales__: ç (0x87), ß (0xE1), £ (0x9C), § (0xA7).
+* __Caracteres de control y gráficos__: incluye algunos caracteres gráficos como líneas y cuadros, útiles para aplicaciones de consola.
 
 Conclusión:
-La Code Page 850 sigue siendo relevante en entornos donde la compatibilidad con aplicaciones antiguas es esencial. Aunque ha sido en gran parte reemplazada por UTF-8 en aplicaciones modernas, su uso sigue siendo necesario para ciertos sistemas y aplicaciones que manejan datos en contextos específicos de Europa Occidental y América Latina.
-
+La _Code Page 850_ sigue siendo relevante en entornos donde la compatibilidad con aplicaciones antiguas es esencial. Aunque ha sido en gran parte reemplazada por UTF-8 en aplicaciones modernas, _Code Page 850_ es la codificación de caracteres utilizada principalmente en sistemas DOS.
 
 A continuación, se muestra la tabla de caracteres de la codificación CP 850 (Code Page 850), que muestra los caracteres correspondientes a los códigos del 0 al 255:
 
 | **Código** | **Hexadecimal** | **Carácter** | **Código** | **Hexadecimal** | **Carácter** | **Código** | **Hexadecimal** | **Carácter** | **Código** | **Hexadecimal** | **Carácter** |
-|------------|-----------------|---------------|------------|-----------------|---------------|------------|-----------------|---------------|------------|-----------------|---------------|
-| 0          | 0x00            | NUL           | 32         | 0x20            | (espacio)     | 64         | 0x40            | @             | 96         | 0x60            | `             |
-| 1          | 0x01            | SOH           | 33         | 0x21            | !             | 65         | 0x41            | A             | 97         | 0x61            | a             |
-| 2          | 0x02            | STX           | 34         | 0x22            | "             | 66         | 0x42            | B             | 98         | 0x62            | b             |
-| 3          | 0x03            | ETX           | 35         | 0x23            | #             | 67         | 0x43            | C             | 99         | 0x63            | c             |
-| 4          | 0x04            | EOT           | 36         | 0x24            | $             | 68         | 0x44            | D             | 100        | 0x64            | d             |
-| 5          | 0x05            | ENQ           | 37         | 0x25            | %             | 69         | 0x45            | E             | 101        | 0x65            | e             |
-| 6          | 0x06            | ACK           | 38         | 0x26            | &             | 70         | 0x46            | F             | 102        | 0x66            | f             |
-| 7          | 0x07            | BEL           | 39         | 0x27            | '             | 71         | 0x47            | G             | 103        | 0x67            | g             |
-| 8          | 0x08            | BS            | 40         | 0x28            | (             | 72         | 0x48            | H             | 104        | 0x68            | h             |
-| 9          | 0x09            | TAB           | 41         | 0x29            | )             | 73         | 0x49            | I             | 105        | 0x69            | i             |
-| 10         | 0x0A            | LF            | 42         | 0x2A            | *             | 74         | 0x4A            | J             | 106        | 0x6A            | j             |
-| 11         | 0x0B            | VT            | 43         | 0x2B            | +             | 75         | 0x4B            | K             | 107        | 0x6B            | k             |
-| 12         | 0x0C            | FF            | 44         | 0x2C            | ,             | 76         | 0x4C            | L             | 108        | 0x6C            | l             |
-| 13         | 0x0D            | CR            | 45         | 0x2D            | -             | 77         | 0x4D            | M             | 109        | 0x6D            | m             |
-| 14         | 0x0E            | SO            | 46         | 0x2E            | .             | 78         | 0x4E            | N             | 110        | 0x6E            | n             |
-| 15         | 0x0F            | SI            | 47         | 0x2F            | /             | 79         | 0x4F            | O             | 111        | 0x6F            | o             |
-| 16         | 0x10            | DLE           | 48         | 0x30            | 0             | 80         | 0x50            | P             | 112        | 0x70            | p             |
-| 17         | 0x11            | DC1           | 49         | 0x31            | 1             | 81         | 0x51            | Q             | 113        | 0x71            | q             |
-| 18         | 0x12            | DC2           | 50         | 0x32            | 2             | 82         | 0x52            | R             | 114        | 0x72            | r             |
-| 19         | 0x13            | DC3           | 51         | 0x33            | 3             | 83         | 0x53            | S             | 115        | 0x73            | s             |
-| 20         | 0x14            | DC4           | 52         | 0x34            | 4             | 84         | 0x54            | T             | 116        | 0x74            | t             |
-| 21         | 0x15            | NAK           | 53         | 0x35            | 5             | 85         | 0x55            | U             | 117        | 0x75            | u             |
-| 22         | 0x16            | SYN           | 54         | 0x36            | 6             | 86         | 0x56            | V             | 118        | 0x76            | v             |
-| 23         | 0x17            | ETB           | 55         | 0x37            | 7             | 87         | 0x57            | W             | 119        | 0x77            | w             |
-| 24         | 0x18            | CAN           | 56         | 0x38            | 8             | 88         | 0x58            | X             | 120        | 0x78            | x             |
-| 25         | 0x19            | EM            | 57         | 0x39            | 9             | 89         | 0x59            | Y             | 121        | 0x79            | y             |
-| 26         | 0x1A            | SUB           | 58         | 0x3A            | :             | 90         | 0x5A            | Z             | 122        | 0x7A            | z             |
-| 27         | 0x1B            | ESC           | 59         | 0x3B            | ;             | 91         | 0x5B            | [             | 123        | 0x7B            | {             |
-| 28         | 0x1C            | FS            | 60         | 0x3C            | <             | 92         | 0x5C            | \             | 124        | 0x7C            | |             |
-| 29         | 0x1D            | GS            | 61         | 0x3D            | =             | 93         | 0x5D            | ]             | 125        | 0x7D            | }             |
-| 30         | 0x1E            | RS            | 62         | 0x3E            | >             | 94         | 0x5E            | ^             | 126        | 0x7E            | ~             |
-| 31         | 0x1F            | US            | 63         | 0x3F            | ?             | 95         | 0x5F            | _             | 127        | 0x7F            | DEL           |
-| 128        | 0x80            | Ç             | 160        | 0xA0            | á             | 192        | 0xC0            | À             | 224        | 0xE0            | à             |
-| 129        | 0x81            | ü             | 161        | 0xA1            | í             | 193        | 0xC1            | Á             | 225        | 0xE1            | á             |
-| 130        | 0x82            | é             | 162        | 0xA2            | ó             | 194        | 0xC2            | Â             | 226        | 0xE2           
+|------------|-----------------|--------------|------------|-----------------|--------------|------------|-----------------|--------------|------------|-----------------|--------------|
+| 0          | 0x00            | NUL          | 32         | 0x20            | (espacio)    | 64         | 0x40            | @            | 96         | 0x60            | `            |
+| 1          | 0x01            | SOH          | 33         | 0x21            | !            | 65         | 0x41            | A            | 97         | 0x61            | a            |
+| 2          | 0x02            | STX          | 34         | 0x22            | "            | 66         | 0x42            | B            | 98         | 0x62            | b            |
+| 3          | 0x03            | ETX          | 35         | 0x23            | #            | 67         | 0x43            | C            | 99         | 0x63            | c            |
+| 4          | 0x04            | EOT          | 36         | 0x24            | $            | 68         | 0x44            | D            | 100        | 0x64            | d            |
+| 5          | 0x05            | ENQ          | 37         | 0x25            | %            | 69         | 0x45            | E            | 101        | 0x65            | e            |
+| 6          | 0x06            | ACK          | 38         | 0x26            | &            | 70         | 0x46            | F            | 102        | 0x66            | f            |
+| 7          | 0x07            | BEL          | 39         | 0x27            | '            | 71         | 0x47            | G            | 103        | 0x67            | g            |
+| 8          | 0x08            | BS           | 40         | 0x28            | (            | 72         | 0x48            | H            | 104        | 0x68            | h            |
+| 9          | 0x09            | TAB          | 41         | 0x29            | )            | 73         | 0x49            | I            | 105        | 0x69            | i            |
+| 10         | 0x0A            | LF           | 42         | 0x2A            | *            | 74         | 0x4A            | J            | 106        | 0x6A            | j            |
+| 11         | 0x0B            | VT           | 43         | 0x2B            | +            | 75         | 0x4B            | K            | 107        | 0x6B            | k            |
+| 12         | 0x0C            | FF           | 44         | 0x2C            | ,            | 76         | 0x4C            | L            | 108        | 0x6C            | l            |
+| 13         | 0x0D            | CR           | 45         | 0x2D            | -            | 77         | 0x4D            | M            | 109        | 0x6D            | m            |
+| 14         | 0x0E            | SO           | 46         | 0x2E            | .            | 78         | 0x4E            | N            | 110        | 0x6E            | n            |
+| 15         | 0x0F            | SI           | 47         | 0x2F            | /            | 79         | 0x4F            | O            | 111        | 0x6F            | o            |
+| 16         | 0x10            | DLE          | 48         | 0x30            | 0            | 80         | 0x50            | P            | 112        | 0x70            | p            |
+| 17         | 0x11            | DC1          | 49         | 0x31            | 1            | 81         | 0x51            | Q            | 113        | 0x71            | q            |
+| 18         | 0x12            | DC2          | 50         | 0x32            | 2            | 82         | 0x52            | R            | 114        | 0x72            | r            |
+| 19         | 0x13            | DC3          | 51         | 0x33            | 3            | 83         | 0x53            | S            | 115        | 0x73            | s            |
+| 20         | 0x14            | DC4          | 52         | 0x34            | 4            | 84         | 0x54            | T            | 116        | 0x74            | t            |
+| 21         | 0x15            | NAK          | 53         | 0x35            | 5            | 85         | 0x55            | U            | 117        | 0x75            | u            |
+| 22         | 0x16            | SYN          | 54         | 0x36            | 6            | 86         | 0x56            | V            | 118        | 0x76            | v            |
+| 23         | 0x17            | ETB          | 55         | 0x37            | 7            | 87         | 0x57            | W            | 119        | 0x77            | w            |
+| 24         | 0x18            | CAN          | 56         | 0x38            | 8            | 88         | 0x58            | X            | 120        | 0x78            | x            |
+| 25         | 0x19            | EM           | 57         | 0x39            | 9            | 89         | 0x59            | Y            | 121        | 0x79            | y            |
+| 26         | 0x1A            | SUB          | 58         | 0x3A            | :            | 90         | 0x5A            | Z            | 122        | 0x7A            | z            |
+| 27         | 0x1B            | ESC          | 59         | 0x3B            | ;            | 91         | 0x5B            | [            | 123        | 0x7B            | {            |
+| 28         | 0x1C            | FS           | 60         | 0x3C            | <            | 92         | 0x5C            | \            | 124        | 0x7C            | |            |
+| 29         | 0x1D            | GS           | 61         | 0x3D            | =            | 93         | 0x5D            | ]            | 125        | 0x7D            | }            |
+| 30         | 0x1E            | RS           | 62         | 0x3E            | >            | 94         | 0x5E            | ^            | 126        | 0x7E            | ~            |
+| 31         | 0x1F            | US           | 63         | 0x3F            | ?            | 95         | 0x5F            | _            | 127        | 0x7F            | DEL          |
+| 128        | 0x80            | Ç            | 160        | 0xA0            | á            | 192        | 0xC0            | À            | 224        | 0xE0            | à            |
+| 129        | 0x81            | ü            | 161        | 0xA1            | í            | 193        | 0xC1            | Á            | 225        | 0xE1            | á            |
+| 130        | 0x82            | é            | 162        | 0xA2            | ó            | 194        | 0xC2            | Â            | 226        | 0xE2            | â            |
+| 131        | 0x83            | â            | 163        | 0xA3            | ú            | 195        | 0xC3            | Ã            | 227        | 0xE3            | ã            |
+| 132        | 0x84            | ä            | 164        | 0xA4            | ñ            | 196        | 0xC4            | Ä            | 228        | 0xE4            | ä            |
+| 133        | 0x85            | à            | 165        | 0xA5            | Ñ            | 197        | 0xC5            | Å            | 229        | 0xE5            | å            |
+| 134        | 0x86            | å            | 166        | 0xA6            | ª            | 198        | 0xC6            | Æ            | 230        | 0xE6            | æ            |
+| 135        | 0x87            | ç            | 167        | 0xA7            | §            | 199        | 0xC7            | Ç            | 231        | 0xE7            | ç            |
+| 136        | 0x88            | ê            | 168        | 0xA8            | ¬            | 200        | 0xC8            | È            | 232        | 0xE8            | è            |
+| 137        | 0x89            | ë            | 169        | 0xA9            | ©            | 201        | 0xC9            | É            | 233        | 0xE9            | é            |
+| 138        | 0x8A            | è            | 170        | 0xAA            | ª            | 202        | 0xCA            | Ê            | 234        | 0xEA            | ê            |
+| 139        | 0x8B            | ï            | 171        | 0xAB            | «            | 203        | 0xCB            | Ë            | 235        | 0xEB            | ë            |
+| 140        | 0x8C            | î            | 172        | 0xAC            | ¬            | 204        | 0xCC            | Ì            | 236        | 0xEC            | ì            |
+| 141        | 0x8D            | ì            | 173        | 0xAD            | (guion)      | 205        | 0xCD            | Í            | 237        | 0xED            | í            |
+| 142        | 0x8E            | Ä            | 174        | 0xAE            | ®            | 206        | 0xCE            | Î            | 238        | 0xEE            | î            |
+| 143        | 0x8F            | Å            | 175        | 0xAF            | ¯            | 207        | 0xCF            | Ï            | 239        | 0xEF            | ï            |
+| 144        | 0x90            | É            | 176        | 0xB0            | °            | 208        | 0xD0            | Ð            | 240        | 0xF0            | ð            |
+| 145        | 0x91            | æ            | 177        | 0xB1            | ±            | 209        | 0xD1            | Ñ            | 241        | 0xF1            | ñ            |
+| 146        | 0x92            | Æ            | 178        | 0xB2            | ²            | 210        | 0xD2            | Ò            | 242        | 0xF2            | ò            |
+| 147        | 0x93            | ô            | 179        | 0xB3            | ³            | 211        | 0xD3            | Ó            | 243        | 0xF3            | ó            |
+| 148        | 0x94            | ö            | 180        | 0xB4            | ´            | 212        | 0xD4            | Ô            | 244        | 0xF4            | ô            |
+| 149        | 0x95            | ò            | 181        | 0xB5            | µ            | 213        | 0xD5            | Õ            | 245        | 0xF5            | õ            |
+| 150        | 0x96            | û            | 182        | 0xB6            | ¶            | 214        | 0xD6            | Ö            | 246        | 0xF6            | ö            |
+| 151        | 0x97            | ù            | 183        | 0xB7            | ·            | 215        | 0xD7            | ×            | 247        | 0xF7            | ÷            |
+| 152        | 0x98            | ÿ            | 184        | 0xB8            | ¸            | 216        | 0xD8            | Ø            | 248        | 0xF8            | ø            |
+| 153        | 0x99            | Ö            | 185        | 0xB9            | ¹            | 217        | 0xD9            | Ù            | 249        | 0xF9            | ù            |
+| 154        | 0x9A            | Ü            | 186        | 0xBA            | º            | 218        | 0xDA            | Ú            | 250        | 0xFA            | ú            |
+| 155        | 0x9B            | ø            | 187        | 0xBB            | »            | 219        | 0xDB            | Û            | 251        | 0xFB            | û            |
+| 156        | 0x9C            | £            | 188        | 0xBC            | ¼            | 220        | 0xDC            | Ü            | 252        | 0xFC            | ü            |
+| 157        | 0x9D            | Ø            | 189        | 0xBD            | ½            | 221        | 0xDD            | Ý            | 253        | 0xFD            | ý            |
+| 158        | 0x9E            | ×            | 190        | 0xBE            | ¾            | 222        | 0xDE            | Þ            | 254        | 0xFE            | þ            |
+| 159        | 0x9F            | ƒ            | 191        | 0xBF            | ¿            | 223        | 0xDF            | ß            | 255        | 0xFF            | ÿ            |
 
-
-Para ver la codificación que estamos utilizando en la Terminal de Windows:
+Para ver la codificación que estamos utilizando en la Terminal de Windows se utiliza el comando _chcp_:
 
 ```
 C:\Users\Jonay>chcp
 Página de códigos activa: 850
 ```
 
-Si queremos cambiar la codificación de la consola a UTF-8 para soportar más caracteres especiales, puedes hacerlo con el siguiente comando:
+Si queremos cambiar la codificación de la consola de Windows a _UTF-8_ para soportar más caracteres especiales, podemos hacerlo con el comando _chcp_:
 
 ```
 C:\Users\Jonay>chcp 65001
 ```
 
-Esto cambiará la página de códigos a UTF-8, permitiendo manejar mejor caracteres Unicode.
+Esto cambiará la página de códigos a _UTF-8_, permitiendo manejar caracteres Unicode.
 
-> __Nota__: recuerda que la codificación afecta cómo se muestran los caracteres en la consola y cómo se manejan archivos de texto, por lo que cambiar a UTF-8 es útil para trabajar con caracteres internacionales de manera más confiable.
+> __Nota__: recuerda que la codificación afecta cómo se muestran los caracteres en la consola y cómo se manejan archivos de texto.
+
+A continuación, se muestra la palabra _Año_ codificada en distintos sistemas de codificación como _ASCII_, _ASCII Extendido ISO 8859-15_, _UTF-8_, _UTF-16_ y _UTF-32_:
+
+| **Codificación**               | **Bytes**                              | **Tamaño (bytes)** | **Descripción**                                                |
+|------------------------------- |--------------------------------------- |------------------- |--------------------------------------------------------------- |
+| ASCII                          | 41 - 6E - 6F                              | 3                  | No admite caracteres acentuados como ñ.                        |
+| ASCII Extendido ISO 8859-15    | 41 - F1 - 6F                              | 3                  | Incluye ñ (F1 en hexadecimal).                                 |
+| UTF-8                          | 41 - C3 B1 - 6F                           | 4                  | ñ se representa en dos bytes C3 B1.                            |
+| UTF-16                         | 00 41 - 00 F1 - 00 6F                     | 6                  | Cada carácter se codifica en 2 bytes.                          |
+| UTF-32                         | 00 00 00 41 - 00 00 00 F1 - 00 00 00 6F   | 12                 | Cada carácter se codifica en 4 bytes.                          |
+
+> __Nota__: ASCII original utiliza 7 bits para cada carácter, pero comúnmente se presenta en 8 bits con el bit más significativo (MSB) situado más a la izquierda configurado en 0 para alinearse con los sistemas de 8 bits.
