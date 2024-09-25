@@ -369,7 +369,7 @@ Ventajas:
 * Buena opción para aplicaciones que necesitan un equilibrio entre espacio y facilidad de acceso aleatorio.
 
 Desventajas:
-* No es compatible con ASCII, lo que puede causar problemas de compatibilidad si no se maneja correctamente.
+* Aunque los primeros 128 caracteres de UTF-16 corresponden a los mismos caracteres de ASCII, no son directamente compatibles en cuanto a la representación de bytes. ASCII utiliza 7 bits (generalmente agrupados en 8 bits) por carácter, mientras que UTF-16 usa 16 bits (2 bytes) o 32 bits (4 bytes) por carácter.
 * Mayor uso de espacio para textos que usan predominantemente caracteres latinos o ASCII.
 
 __UTF-32 (32-bit Unicode Transformation Format)__
@@ -383,6 +383,7 @@ Ventajas:
 Desventajas:
 * Uso de memoria extremadamente alto ya que ocupa mucho más espacio que UTF-8 y UTF-16, lo que lo hace ineficiente para la mayoría de las aplicaciones.
 * Poco utilizado en la web debido a su ineficiencia de almacenamiento.
+* Aunque los primeros 128 caracteres de UTF-32 corresponden a los mismos caracteres de ASCII, no son directamente compatibles en cuanto a la representación de bytes. ASCII utiliza 7 bits (generalmente agrupados en 8 bits) por carácter, mientras que UTF-32 usa 32 bits (4 bytes) por carácter.
 
 Comparativa Resumida de UTF-8, UTF-16 y UTF-32:
 
