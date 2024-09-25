@@ -8,12 +8,12 @@
 
 ![][01]
 
-__JSON__ (_JavaScript Object Notation_) es un formato de texto ligero y legible para el intercambio de datos. Es ampliamente utilizado en aplicaciones web y APIs para enviar datos estructurados entre un servidor y un cliente. Aunque se deriva de la sintaxis de JavaScript, JSON es independiente del lenguaje de programación y es compatible con casi todos los lenguajes de programación modernos. _JSON_ fue desarrollado por Douglas Crockford a principios de la década de 2000 como una alternativa más simple y fácil de usar que XML para la transferencia de datos en aplicaciones web. La facilidad de uso y la simplicidad de _JSON_, junto con su compatibilidad con JavaScript, lo hicieron rápidamente popular como el formato estándar para el intercambio de datos en la web.
+__JSON__ (_JavaScript Object Notation_) es un formato de texto ligero y legible para el intercambio de datos. Es ampliamente utilizado en aplicaciones web y APIs para enviar datos estructurados entre un servidor y un cliente. Aunque se deriva de la sintaxis de JavaScript, _JSON_ es independiente del lenguaje de programación y es compatible con casi todos los lenguajes de programación modernos. _JSON_ fue desarrollado por Douglas Crockford a principios de la década de 2000 como una alternativa más simple y fácil de usar que _XML_ para la transferencia de datos en aplicaciones web. La facilidad de uso y la simplicidad de _JSON_, junto con su compatibilidad con JavaScript, lo hicieron rápidamente popular como el formato estándar para el intercambio de datos en la web.
 
 Características principales de JSON:
 * __Simplicidad y legibilidad__: JSON utiliza una estructura sencilla basada en pares clave-valor, listas y objetos anidados, lo que lo hace fácil de leer y escribir tanto para humanos como para máquinas.
 * __Independencia de lenguaje__: aunque JSON se deriva de JavaScript, se puede utilizar con casi cualquier lenguaje de programación, lo que lo convierte en un formato altamente interoperable.
-* __Estructura clara_: JSON tiene una sintaxis clara y estricta que define cómo se deben estructurar los datos, lo que facilita la validación y el procesamiento.
+* __Estructura clara__: JSON tiene una sintaxis clara y estricta que define cómo se deben estructurar los datos, lo que facilita la validación y el procesamiento.
 
 Un archivo JSON está compuesto por:
 * __Objetos__: definidos por llaves {}, que contienen pares clave-valor.
@@ -38,9 +38,9 @@ Ejemplo básico de JSON:
 
 __Objetos JSON__
 
-Los _objetos_ en JSON son una colección de pares clave-valor. Se encierran entre llaves «{}» y cada clave se separa de su valor correspondiente por dos puntos «:». Los pares clave-valor se separan entre sí por comas «,».
+Los _objetos_ en _JSON_ son una colección de pares clave-valor. Se encierran entre llaves «{}» y cada clave se separa de su valor correspondiente por dos puntos «:». Los pares clave-valor se separan entre sí por comas «,».
 
-Un ejemplo de _objeto_ JSON lo podemos ver en el código siguiente:
+Un ejemplo de _objeto JSON_ lo podemos ver en el código siguiente:
 
 ```
 {
@@ -58,9 +58,9 @@ Este _objeto_ JSON consta de tres pares clave-valor:
 
 __Arreglos JSON__
 
-Los _arreglos_ o _arrays_ JSON son simples colecciones de elementos. Estos elementos pueden ser datos como números o cadenas pero también otros arreglos u objetos JSON.
+Los _arreglos_ o _arrays_ en _JSON_ son simples colecciones de elementos. Estos elementos pueden ser datos como números o cadenas pero también otros arreglos u objetos _JSON_.
 
-Los _arrays_ se encierran entre corchetes «[]» y los valores se separan entre sí por comas «,». Cada objeto en el array representa una persona, con información sobre su nombre, edad y ciudad:
+Los _arrays_ se encierran entre corchetes «[]» y los valores se separan entre sí por comas «,». Cada objeto en el array representa una persona, con información sobre su nombre, edad y ciudad donde vive:
 
 ```
 [
@@ -176,6 +176,14 @@ $ cat alumnos.json
     }
 ]
 ```
+
+Una vez creados los archivos _lee\_json_.py_ y _usuarios.json_, si listamos los archivos del directorio deberíamos ver lo siguiente:
+
+```
+$ ls -l 
+total 1552
+-rw-rw-r--  1 jonay jonay     753 sep 21 08:22  alumnos.json
+-rw-rw-r--  1 jonay jonay     903 sep 21 08:22  lee_json.py
 
 La ejecución del programa _lee-json.py_ sería la siguiente:
 
