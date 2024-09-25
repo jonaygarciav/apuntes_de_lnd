@@ -121,7 +121,21 @@ A continuación, se muestra la tabla de caracteres ASCII:
 | 46               | 0101110              | 2E              | .                           | 110              | 1101110              | 6E              | n                           |
 | 47               | 0101111              | 2F              | /                           | 111              | 1101111              | 6F              | o                           |
 | 48               | 0110000              | 30              | 0                           | 112              | 1110000              | 70              | p                           |
-| 49               | 0110001              |
+| 49               | 0110001              | 31              | 1                           | 113              | 1110001              | 71              | q                           |
+| 50               | 0110010              | 32              | 2                           | 114              | 1110010              | 72              | r                           |
+| 51               | 0110011              | 33              | 3                           | 115              | 1110011              | 73              | s                           |
+| 52               | 0110100              | 34              | 4                           | 116              | 1110100              | 74              | t                           |
+| 53               | 0110101              | 35              | 5                           | 117              | 1110101              | 75              | u                           |
+| 54               | 0110110              | 36              | 6                           | 118              | 1110110              | 76              | v                           |
+| 55               | 0110111              | 37              | 7                           | 119              | 1110111              | 77              | w                           |
+| 56               | 0111000              | 38              | 8                           | 120              | 1111000              | 78              | x                           |
+| 57               | 0111001              | 39              | 9                           | 121              | 1111001              | 79              | y                           |
+| 58               | 0111010              | 3A              | :                           | 122              | 1111010              | 7A              | z                           |
+| 59               | 0111011              | 3B              | ;                           | 123              | 1111011              | 7B              | {                           |
+| 60               | 0111100              | 3C              | <                           | 124              | 1111100              | 7C              | |                           |
+| 61               | 0111101              | 3D              | =                           | 125              | 1111101              | 7D              | }                           |
+| 62               | 0111110              | 3E              | >                           | 126              | 1111110              | 7E              | ~                           |
+| 63               | 0111111              | 3F              | ?                           | 127              | 1111111              | 7F              | DEL (Suprimir)              |
 
 * __Caracteres imprimibles__: son aquellos que representan símbolos visibles que se pueden mostrar en la pantalla o imprimir en papel. Estos incluyen letras, números, signos de puntuación y símbolos especiales.
 * __Caracteres de control__:  son aquellos que no se representan como símbolos visibles, sino que se utilizan para controlar dispositivos (como impresoras) o para gestionar el flujo de datos en la comunicación. Estos caracteres suelen realizar funciones específicas como mover el cursor, iniciar una nueva línea o enviar comandos a periféricos.
