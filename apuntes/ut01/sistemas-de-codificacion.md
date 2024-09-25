@@ -399,6 +399,18 @@ Conclusión:
 
 Estas codificaciones permiten a Unicode representar y gestionar texto de cualquier idioma de manera coherente y flexible, facilitando la comunicación y la interoperabilidad en la era digital.
 
+A continuación, se muestra la palabra "_Año_" codificada en distintos sistemas de codificación como _ASCII_, _ISO 8859-15_, _UTF-8_, _UTF-16_ y _UTF-32_:
+
+| **Codificación**               | **Bytes**                              | **Tamaño (bytes)** | **Descripción**                                                |
+|------------------------------- |--------------------------------------- |------------------- |--------------------------------------------------------------- |
+| ASCII                          | 41 - 6E - 6F                              | 3                  | No admite caracteres acentuados como ñ.                        |
+| ISO 8859-15                    | 41 - F1 - 6F                              | 3                  | Incluye ñ (F1 en hexadecimal).                                 |
+| UTF-8                          | 41 - C3 B1 - 6F                           | 4                  | ñ se representa en dos bytes C3 B1.                            |
+| UTF-16                         | 00 41 - 00 F1 - 00 6F                     | 6                  | Cada carácter se codifica en 2 bytes.                          |
+| UTF-32                         | 00 00 00 41 - 00 00 00 F1 - 00 00 00 6F   | 12                 | Cada carácter se codifica en 4 bytes.                          |
+
+> __Nota__: ASCII original utiliza 7 bits para cada carácter, pero comúnmente se presenta en 8 bits con el bit más significativo (MSB) situado más a la izquierda configurado a 0 para alinearse con los sistemas de 8 bits.
+
 ## Codificación en Sitemas Windows
 
 Windows utiliza varias páginas de códigos (code pages) para manejar la representación de caracteres en diferentes idiomas y contextos. Estas páginas de códigos determinan cómo se interpretan los bytes en archivos de texto, aplicaciones de consola, y otros entornos:
@@ -519,15 +531,3 @@ C:\Users\Jonay>chcp 65001
 Esto cambiará la página de códigos a _UTF-8_, permitiendo manejar caracteres Unicode.
 
 > __Nota__: recuerda que la codificación afecta cómo se muestran los caracteres en la consola y cómo se manejan archivos de texto.
-
-A continuación, se muestra la palabra _Año_ codificada en distintos sistemas de codificación como _ASCII_, _ASCII Extendido ISO 8859-15_, _UTF-8_, _UTF-16_ y _UTF-32_:
-
-| **Codificación**               | **Bytes**                              | **Tamaño (bytes)** | **Descripción**                                                |
-|------------------------------- |--------------------------------------- |------------------- |--------------------------------------------------------------- |
-| ASCII                          | 41 - 6E - 6F                              | 3                  | No admite caracteres acentuados como ñ.                        |
-| ASCII Extendido ISO 8859-15    | 41 - F1 - 6F                              | 3                  | Incluye ñ (F1 en hexadecimal).                                 |
-| UTF-8                          | 41 - C3 B1 - 6F                           | 4                  | ñ se representa en dos bytes C3 B1.                            |
-| UTF-16                         | 00 41 - 00 F1 - 00 6F                     | 6                  | Cada carácter se codifica en 2 bytes.                          |
-| UTF-32                         | 00 00 00 41 - 00 00 00 F1 - 00 00 00 6F   | 12                 | Cada carácter se codifica en 4 bytes.                          |
-
-> __Nota__: ASCII original utiliza 7 bits para cada carácter, pero comúnmente se presenta en 8 bits con el bit más significativo (MSB) situado más a la izquierda configurado en 0 para alinearse con los sistemas de 8 bits.
