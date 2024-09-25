@@ -160,8 +160,8 @@ Historial de versiones:
 | XML 1.1                       | 2004 | Extensible Markup Language (XML) 1.1                |
 
 Descripción de las Versiones:
-* __XML 1.0__: Fue la primera versión del estándar, lanzada en 1998, y ha sido revisada varias veces para corregir errores y mejorar su claridad sin cambiar su funcionalidad fundamental.
-* __XML 1.1__: Introducido en 2004 para agregar soporte a un rango más amplio de caracteres y resolver problemas relacionados con los nombres de elementos y atributos que no eran compatibles con XML 1.0.
+* __XML 1.0__: fue la primera versión del estándar, lanzada en 1998, y ha sido revisada varias veces para corregir errores y mejorar su claridad sin cambiar su funcionalidad fundamental.
+* __XML 1.1__: introducido en 2004 para agregar soporte a un rango más amplio de caracteres y resolver problemas relacionados con los nombres de elementos y atributos que no eran compatibles con XML 1.0.
 
 Características principales de XML: 
 * __Extensible__: XML permite definir etiquetas personalizadas, lo que significa que no está limitado a un conjunto específico de etiquetas como HTML. Esto da flexibilidad para describir datos en cualquier contexto.
@@ -188,7 +188,7 @@ Aplicaciones Comunes de XML:
 * __Intercambio de datos__: XML se utiliza ampliamente para el intercambio de datos entre aplicaciones a través de APIs y servicios web.
 * __Configuración de Software__: muchos programas utilizan XML para definir configuraciones y preferencias de usuario.
 * __Almacenamiento de datos__: XML es usado para almacenar y transportar datos estructurados en documentos como feeds RSS, archivos de configuración, y más.
-* __Documentación y Publicaciones__: XML se utiliza en la producción de documentos técnicos y publicaciones, incluyendo manuales y artículos.
+* __Documentación y publicaciones__: XML se utiliza en la producción de documentos técnicos y publicaciones, incluyendo manuales y artículos.
 
 Ventajas de XML:
 * __Estándar abierto__: cualquier desarrollador puede usar XML sin necesidad de licencias.
