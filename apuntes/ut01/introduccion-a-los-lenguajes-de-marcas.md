@@ -234,7 +234,7 @@ Explicación de las Definiciones en el DTD:
 __HTML__ (_HyperText Markup Language_) es el lenguaje estándar para la creación de páginas web y aplicaciones web. Es un lenguaje de marcado que define la estructura de un documento mediante el uso de etiquetas (tags), y es la base de todo el contenido visible en la web. Fue creado en 1991 por Tim Berners-Lee, el inventor de la World Wide Web, como una forma de compartir documentos científicos y técnicos en la web. Desde su creación, HTML ha pasado por varias versiones, desde HTML 1.0 hasta la actual HTML 5, que ha añadido soporte para multimedia, gráficos, y una mejor integración con tecnologías modernas como CSS y JavaScript.
 
 Características principales de HTML:
-* __Estructura de documentos__: HTML utiliza una jerarquía de etiquetas para estructurar el contenido de una página web. Las etiquetas básicas incluyen \<html\>, \<head\>, \<body\>, \<h1\> a \<h6\> (encabezados), \<p\> (párrafos), \<a\> (enlaces), \<img\> (imágenes), y muchas más.
+* __Estructura de documentos__: HTML utiliza una jerarquía de etiquetas para estructurar el contenido de una página web. Las etiquetas básicas incluyen `<html>`, `<head>`, `<body>`, `<h1>` a `<h6>` (encabezados), `<p>` (párrafos), `<a>` (enlaces), `<img>` (imágenes), y muchas más.
 * __Elementos Semánticos__: HTML5 introdujo elementos semánticos como \<header\>, \<footer\>, \<article\>, \<section\>, y \<aside\> que mejoran la accesibilidad y la estructura del contenido para usuarios y motores de búsqueda.
 * __Interactividad y Multimedia__: HTML permite la inclusión de multimedia (audio, video) y gráficos vectoriales (\<canvas\>, \<svg\>), así como la integración de scripts y estilos mediante JavaScript y CSS.
 
