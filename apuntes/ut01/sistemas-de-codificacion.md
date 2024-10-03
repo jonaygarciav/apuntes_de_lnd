@@ -412,7 +412,7 @@ A continuación, se muestra la palabra "_Año_" codificada en distintos sistemas
 
 > __Nota__: ASCII original utiliza 7 bits para cada carácter, pero comúnmente se presenta en 8 bits con el bit más significativo (MSB) situado más a la izquierda configurado a 0 para alinearse con los sistemas de 8 bits.
 
-## Codificación en Sitemas Windows
+## Codificación en Sistemas Windows
 
 Windows utiliza varias páginas de códigos (code pages) para manejar la representación de caracteres en diferentes idiomas y contextos. Estas páginas de códigos determinan cómo se interpretan los bytes en archivos de texto, aplicaciones de consola, y otros entornos:
 * __Code Page 437__ (_OEM - Estados Unidos_): la página de códigos original de IBM PC para inglés de EE.UU., usada principalmente en DOS. Soporta caracteres ASCII estándar y algunos gráficos de líneas.
