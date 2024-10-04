@@ -10,3 +10,7 @@ UT01: Introducción a los Lenguajes de Marcas
 * [Sistemas de codificación](./apuntes/ut01/sistemas-de-codificacion.md)
 * [Estándares y Organismos de Normalización](./apuntes/ut01/estandares-y-organismos-de-normalizacion.md)
 * [EJERCICIOS](./apuntes/ejercicios/ut01.md)
+
+## Otros
+
+* [Clase de Git 04/10/2024](./apuntes/otros/clase-git-20241003.md)
