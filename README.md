@@ -12,7 +12,7 @@ UT01: Introducción a los Lenguajes de Marcas
 * [EJERCICIOS](./apuntes/ejercicios/ut01.md)
 
 UT02: XML y validación de documentos XML con DTD y XSD
-* Introducción a XML ([Apuntes](./apuntes/ut02/intro-a-xml.md) | [Ejercicios](./apuntes/ut01/intro-a-xml-ejercicios.md))
+* Introducción a XML ([Apuntes](./apuntes/ut02/intro-a-xml.md) | [Ejercicios](./apuntes/ejercicios/ut02/intro-a-xml.md))
 * Validación de documentos XML con DTD ([Apuntes](./apuntes/ut02/validacion-con-dtd.md) | [Ejercicios](./apuntes/ut01/validacion-con-dtd-ejercicios.md))
 * Validación de documentos XML con XSD ([Apuntes](./apuntes/ut02/validacion-con-xsd.md) | [Ejercicios](./apuntes/ut01/validacion-con-xsd-ejercicios.md))
 

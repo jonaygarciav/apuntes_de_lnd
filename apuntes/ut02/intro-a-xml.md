@@ -1,4 +1,4 @@
-# XML y Validación de Documentos (DTD y XSD)
+# Introducción a XML
 
 * Introducción
 * Documentos XML
@@ -147,8 +147,8 @@ El único atributo obligatorio en la cabecera de un documento XML es `<version>`
 
 A continuación, se muestran los tres atributos que se pueden añadir a la cabecera XML:
 
-* `<version>` (obligatorio): Indica la versión de XML utilizada en el documento. La versión más común es 1.0, aunque también existe 1.1.
-* `<encoding>` (opcional pero recomendado): define la codificación de caracteres que se utiliza en el documento (como UTF-8 o ISO-8859-1). Aunque no es obligatorio, es muy recomendable incluirlo, sobre todo si el documento contiene caracteres fuera del conjunto ASCII estándar.
+* `<version>` (obligatorio): Indica la versión de XML utilizada en el documento. La versión más común es `1.0`, aunque también existe la versión `1.1`.
+* `<encoding>` (opcional pero recomendado): define la codificación de caracteres que se utiliza en el documento (como `UTF-8` o `ISO-8859-1`). Aunque no es obligatorio, es muy recomendable incluirlo, sobre todo si el documento contiene caracteres fuera del conjunto ASCII estándar.
 * `<standalone>` (opcional): indica si el documento depende de un DTD externo o no. Puede tener los valores `yes` o `no`. Si no se especifica, el valor por defecto es no.
 
 Ejemplo de cabecera XML con los tres atributos:
