@@ -4,7 +4,7 @@
 
 __Ejercicio 1__
 
-Crear un documento XML llamado _libreria.xml_ sobre una librería de libros siguiendo las siguientes indicaciones:
+Crear un documento XML llamado `libreria.xml` sobre una librería de libros siguiendo las siguientes indicaciones:
 
 * Cada libro debe tener las siguientes etiquetas: título, autor, año de publicación y precio.
 * Añade un atributo moneda al precio para especificar si el precio está en USD o EUR.
