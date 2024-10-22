@@ -34,8 +34,8 @@ Fichero _direccionamiento_ip.md_:
 
 ![][05]
 
-[01]: ./ut01-intro-lm-ejercicio01.png "01"
-[02]: ./ut01-intro-lm-ejercicio02.png "02"
-[03]: ./ut01-intro-lm-ejercicio03.png "03"
-[04]: ./ut01-intro-lm-ejercicio04.png "04"
-[05]: ./ut01-intro-lm-ejercicio04B.png "05"
+[01]: ./intro-lm-ejercicio01.png "01"
+[02]: ./intro-lm-ejercicio02.png "02"
+[03]: ./intro-lm-ejercicio03.png "03"
+[04]: ./intro-lm-ejercicio04.png "04"
+[05]: ./intro-lm-ejercicio04B.png "05"
