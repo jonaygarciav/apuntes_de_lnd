@@ -184,6 +184,7 @@ $ ls -l
 total 1552
 -rw-rw-r--  1 jonay jonay     753 sep 21 08:22  alumnos.json
 -rw-rw-r--  1 jonay jonay     903 sep 21 08:22  lee_json.py
+```
 
 La ejecución del programa _lee-json.py_ sería la siguiente:
 
