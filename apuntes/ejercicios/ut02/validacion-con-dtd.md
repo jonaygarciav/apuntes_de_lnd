@@ -1,4 +1,4 @@
-# Ejercicios de Introducción a XML
+# Ejercicios de Validación de Documentos XML con DTD
 
 ## Introducción al Lenguaje de Marcas
 
