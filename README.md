@@ -5,11 +5,10 @@
 [Presentación](./apuntes/ut00/presentacion.md)
 
 UT01: Introducción a los Lenguajes de Marcas
-* [Introducción a los lenguajes de marcas](./apuntes/ut01/introduccion-a-los-lenguajes-de-marcas.md)
-* [Otros formatos de texto](./apuntes/ut01/otros-formatos-de-texto.md)
-* [Sistemas de codificación](./apuntes/ut01/sistemas-de-codificacion.md)
-* [Estándares y Organismos de Normalización](./apuntes/ut01/estandares-y-organismos-de-normalizacion.md)
-* [EJERCICIOS](./apuntes/ejercicios/ut01.md)
+* Introducción a los lenguajes de marcas ([Apuntes](./apuntes/ut01/intro-a-los-lenguajes-de-marcas.md) | [Ejercicios](./apuntes/ejercicios/ut01/intro-a-los-lenguajes-de-marcas.md))
+* Otros formatos de texto ([Apuntes](./apuntes/ut01/otros-formatos-de-texto.md) | [Ejercicios](./apuntes/ejercicios/ut01/otros-formatos-de-texto.md))
+* Sistemas de codificación ([Sistemas de codificación](./apuntes/ut01/sistemas-de-codificacion.md) | [Ejercicios](./apuntes/ut01/sistemas-de-codificacion.md))
+* Estándares y Organismos de Normalización ([Apuntes](./apuntes/ut01/estandares-y-organismos-de-normalizacion.md) | [Ejercicios](./apuntes/ut01/estandares-y-organismos-de-normalizacion.md))
 
 UT02: XML y validación de documentos XML con DTD y XSD
 * Introducción a XML ([Apuntes](./apuntes/ut02/intro-a-xml.md) | [Ejercicios](./apuntes/ejercicios/ut02/intro-a-xml.md))
