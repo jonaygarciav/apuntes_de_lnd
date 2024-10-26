@@ -1,4 +1,4 @@
-# Ejercicios de Otros Formatos de Texto
+# Otros Formatos de Texto (Ejercicios)
 
 __Ejercicio 1__
 

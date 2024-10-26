@@ -1,8 +1,8 @@
-# Ejercicios de Introducción al Lenguaje de Marcas
+# Introducción al Lenguaje de Marcas (Ejercicios)
 
 __Ejercicio 1__
 
-Crear un fichero en formato Markdown llamado _html.md_ con el siguiente contenido:
+Crear un fichero en formato Markdown llamado `html.md` con el siguiente contenido:
 
 ![][01]
 
@@ -10,7 +10,7 @@ El link _enlace a la documentación oficial de MDN_ debe debe apuntar a la URL h
 
 __Ejercicio 2__
 
-Crear un fichero en formato Markdown llamado _receta.md_ con el siguiente contenido:
+Crear un fichero en formato Markdown llamado `receta.md` con el siguiente contenido:
 
 ![][02]
 
@@ -18,13 +18,13 @@ El link _este enlace_ debe debe apuntar a la URL https://es.wikipedia.org/wiki/P
 
 __Ejercicio 3__
 
-Crear un fichero en formato Markdown llamado _python.md_ con el siguiente contenido:
+Crear un fichero en formato Markdown llamado  `python.md` con el siguiente contenido:
 
 ![][03]
 
 __Ejercicio 4__
 
-Crear dos ficheros en formato Markdown llamados _intro-redes.md_ y _direccionamiento-ip.md_. El fichero _intro-redes.md_ tiene un enlace que, cuando pulsamos en él, abre el fichero _direccionamiento-ip.md_.
+Crear dos ficheros en formato Markdown llamados `intro-redes.md` y `direccionamiento-ip.md`. El fichero _intro-redes.md_ tiene un enlace que, cuando pulsamos en él, abre el fichero _direccionamiento-ip.md_.
 
 Fichero _intro-redes.md_:
 

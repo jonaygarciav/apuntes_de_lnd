@@ -1,4 +1,4 @@
-# Ejercicios de Sistemas de Codificación
+# Sistemas de Codificación (Ejercicios)
 
 __Ejercicio 1__
 
