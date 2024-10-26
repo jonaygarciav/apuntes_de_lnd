@@ -24,18 +24,18 @@ Crear un fichero en formato Markdown llamado _python.md_ con el siguiente conten
 
 __Ejercicio 4__
 
-Crear dos ficheros en formato Markdown llamados _README.md_ y _direccionamiento_ip.md_. El fichero _README.md_ tiene un enlace que apunta al fichero _direccionamiento_ip.md_.
+Crear dos ficheros en formato Markdown llamados _intro-redes.md_ y _direccionamiento-ip.md_. El fichero _intro-redes.md_ tiene un enlace que, cuando pulsamos en él, abre el fichero _direccionamiento-ip.md_.
 
-Fichero _README.md_:
+Fichero _intro-redes.md_:
 
 ![][04]
 
-Fichero _direccionamiento_ip.md_:
+Fichero _direccionamiento-ip.md_:
 
 ![][05]
 
-[01]: ./intro-a-los-lenguajes-de-marcas01.png "01"
-[02]: ./intro-a-los-lenguajes-de-marcas02.png "02"
-[03]: ./intro-a-los-lenguajes-de-marcas03.png "03"
-[04]: ./intro-a-los-lenguajes-de-marcas04.png "04"
-[05]: ./intro-a-los-lenguajes-de-marcas04B.png "05"
+[01]: ../img/ut01/intro-lenguajes-de-marcas/html.png "01"
+[02]: ../img/ut01/intro-lenguajes-de-marcas/paella.png "02"
+[03]: ../img/ut01/intro-lenguajes-de-marcas/python.png "03"
+[04]: ../img/ut01/intro-lenguajes-de-marcas/direccionamiento-ip01.png "04"
+[05]: ../img/ut01/intro-lenguajes-de-marcas/direccionamiento-ip02.png "05"

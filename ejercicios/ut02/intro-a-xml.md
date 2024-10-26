@@ -1,6 +1,4 @@
-# Ejercicios de Introducción a XML
-
-## Introducción al Lenguaje de Marcas
+# Introducción a XML (Ejercicios)
 
 __Ejercicio 1__
 
@@ -9,13 +7,13 @@ Crear un documento XML llamado `libreria.xml` sobre una librería de libros sigu
 * Cada libro debe tener las siguientes etiquetas: título, autor, año de publicación y precio.
 * Añade un atributo moneda al precio para especificar si el precio está en USD o EUR.
 
-| Título                        | Autor         | Año  | Precio  | Moneda |
-|-------------------------------|---------------|------|---------|--------|
-| XML para principiantes         | Juan Pérez    | 2022 | 25.00   | USD    |
-| Guía avanzada de XML           | Ana García    | 2020 | 30.00   | EUR    |
-| Introducción a XML             | Marta Fernández| 2019 | 20.00   | USD    |
-| Fundamentos de XML             | Carlos López  | 2021 | 35.00   | EUR    |
-| XML en profundidad             | Luis Martínez | 2018 | 40.00   | USD    |
+| Título                   | Autor           | Año  | Precio  | Moneda |
+|--------------------------|-----------------|------|---------|--------|
+| XML para principiantes   | Juan Pérez      | 2022 | 25.00   | USD    |
+| Guía avanzada de XML     | Ana García      | 2020 | 30.00   | EUR    |
+| Introducción a XML       | Marta Fernández | 2019 | 20.00   | USD    |
+| Fundamentos de XML       | Carlos López    | 2021 | 35.00   | EUR    |
+| XML en profundidad       | Luis Martínez   | 2018 | 40.00   | USD    |
 
 El documento debe contener la cabecera XML con los atributos `version` y `encoding`.
 
@@ -75,4 +73,4 @@ Crea un docuemnto XML llamado `factura.xml`que modele la siguiente factura:
 
 ![][01]
 
-[01]: ./factura01.webp "01"
+[01]: ../img/ut02/intro-a-xml/factura01.webp "01"
