@@ -322,6 +322,6 @@ Desventajas de TOML:
 
 TOML es un lenguaje de configuración eficiente y fácil de usar que se está convirtiendo en una opción popular para los desarrolladores que necesitan un formato de configuración simple y accesible. Su claridad y legibilidad hacen de TOML una excelente opción para gestionar configuraciones de software y entornos.
 
-[01]: ../img/ut01/json-logo.png "01"
-[02]: ../img/ut01/yaml-logo.png "02"
-[03]: ../img/ut01/toml-logo.png "03"
+[01]: ../img/ut01/otros-formatos-de-texto/json-logo.png "01"
+[02]: ../img/ut01/otros-formatos-de-texto/yaml-logo.png "02"
+[03]: ../img/ut01/otros-formatos-de-texto/toml-logo.png "03"

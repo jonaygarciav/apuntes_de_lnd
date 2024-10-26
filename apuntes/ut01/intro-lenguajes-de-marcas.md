@@ -302,6 +302,8 @@ Descripción de las versiones:
 
 ## XHTML
 
+![][04]
+
 __XHTML__ (_Extensible HyperText Markup Language_) es una versión de _HTML_ que sigue las reglas más estrictas de _XML_, combinando la flexibilidad de _HTML_ con la estructura rigurosa de _XML_. _XHTML_ fue desarrollado para asegurar que los documentos web fueran más consistentes y más fácilmente comprensibles tanto por los navegadores como por otras aplicaciones.
 
 Las versiones de XHTML son las siguientes:
@@ -420,7 +422,7 @@ Diferencias y características de XHTML 1.1:
 
 ## Markdown
 
-![][04]
+![][05]
 
 __Markdown__ es un lenguaje de marcado ligero que permite escribir texto con formato utilizando una sintaxis sencilla y fácil de leer. Fue creado por John Gruber en 2004 con la intención de que los textos escritos en Markdown fueran legibles en su forma original, sin requerir una conversión previa para entender el formato aplicado, como sucede con otros lenguajes de marcado como HTML.
 
@@ -469,7 +471,9 @@ Ventajas del uso de Markdown:
 
 > __Nota__: Markdown, aunque comparte la simplicidad de YAML y JSON, no se utiliza para la estructura de datos sino para formatear texto, lo que lo hace más cercano a los _lenguajes de marcas_.
 
-[01]: ../img/ut01/gml-logo.png "01"
-[02]: ../img/ut01/xml-logo.png "02"
-[03]: ../img/ut01/html5-logo.png "03"
-[04]: ../img/ut01/markdown-logo.png "04"
+[01]: ../img/ut01/intro-lenguajes-de-marcas/gml-logo.png "01"
+[02]: ../img/ut01/intro-lenguajes-de-marcas/xml-logo.png "02"
+[03]: ../img/ut01/intro-lenguajes-de-marcas/html5-logo.png "03"
+[04]: ../img/ut01/intro-lenguajes-de-marcas/xhtml-logo.png "04"
+[05]: ../img/ut01/intro-lenguajes-de-marcas/markdown-logo.png "05"
+

@@ -124,6 +124,6 @@ Algunos de los _estándares_ creados por _W3C_ en relacionados con la Web:
 
 Una  _recomendación del W3C_ (W3C Recommendation_) es el nivel más alto de estandarización dentro del proceso de desarrollo de estándares del World Wide Web Consortium (W3C). Se puede considerar como un estándar oficial del W3C y se utiliza para definir cómo deben funcionar tecnologías clave en la web, como HTML, CSS, SVG, y muchas otras.
 
-[01]: ../img/ut01/iso-logo.png "01"
-[02]: ../img/ut01/ietf-logo.png "02"
-[03]: ../img/ut01/w3c-logo.png "03"
+[01]: ../img/ut01/estandares-y-organismos-de-normalizacion/iso-logo.png "01"
+[02]: ../img/ut01/estandares-y-organismos-de-normalizacion/ietf-logo.png "02"
+[03]: ../img/ut01/estandares-y-organismos-de-normalizacion/w3c-logo.png "03"
