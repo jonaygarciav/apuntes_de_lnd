@@ -12,7 +12,7 @@
 
 ## Introducción
 
-Un documento XML es válido cuando sigue las reglas definidas en un DTD o un esquema XSD. Es decir, además de estar bien formado, el contenido debe cumplir con una estructura previamente definida que determine qué elementos y atributos son permitidos y en qué orden deben aparecer.
+Un documento XML es válido cuando sigue las reglas definidas en un __DTD__ o un esquema __XSD__. Es decir, además de estar bien formado, el contenido debe cumplir con una estructura previamente definida que determine qué elementos y atributos son permitidos y en qué orden deben aparecer.
 
 Un __DTD__ (_Document Type Definition_) es un conjunto de reglas que define la estructura y las relaciones entre los elementos, atributos y entidades dentro de un documento XML. Un DTD puede estar interno (dentro del propio documento XML) o externo (definido en un archivo aparte). Su principal objetivo es validar que los documentos XML cumplen con un formato o estructura específica.
 
