@@ -1,4 +1,4 @@
-# Ejercicios de Estándares y Organismos de Normalización
+# Estándares y Organismos de Normalización (Ejercicios)
 
 __Ejercicio 1__
 
