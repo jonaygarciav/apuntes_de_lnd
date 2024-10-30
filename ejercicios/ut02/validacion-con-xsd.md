@@ -35,15 +35,17 @@ Crear un fichero xml llamado `estudiantes.xml` con los siguientes datos:
 | Ana         | Sánchez Torres    | 4567890   | 2022-03-10           | ana.sanchez@email.com    | 4567890123 | 7890123456 |            | avenida | El Prado           | 28025         |
 | Luis        | Martínez Gómez    | 5678901   | 2023-01-05           | luis.martinez@email.com  | 8901234567 | 2345678901 | 6789012345 | calle   | La Castellana      | 28030         |
 
-Crea un esquema XSD llamado `estudiantes.xsd` para un listado de estudiantes, con un máximo de 10 estudiantes, donde cada estudiante debe incluir:
+Crea un esquema XSD llamado `estudiantes.xsd` para un listado de estudiantes que cumpla los siguientes requisitos:
 
-* Nombre: texto de hasta 30 caracteres.
-* Apellidos: texto de hasta 50 caracteres.
-* Matrícula: un número de 7 dígitos, obligatorio.
-* Fecha de inscripción: fecha en formato YYYY-MM-DD, desde 2000-01-01 hasta 2023-12-31.
-* Correo electrónico: en formato email@dominio.com, obligatorio.
-* Teléfonos: de 1 a 3 números de teléfono de 10 dígitos cada uno.
-* Dirección:
-    * Vía: solo puede tener los valores "calle" o "avenida".
-    * Nombre: texto de hasta 100 caracteres.
-    * Código Postal: exactamente 5 dígitos.
+* Máximo de 10 estudiantes en el listado. Puede que no haya ninguno.
+* Cada alumno debe contener los siguientes datos:
+    * Nombre: texto de hasta 30 caracteres.
+    * Apellidos: texto de hasta 50 caracteres.
+    * Matrícula: un número de 7 dígitos, obligatorio.
+    * Fecha de inscripción: fecha en formato YYYY-MM-DD, desde 2000-01-01 hasta 2023-12-31.
+    * Correo electrónico: en formato email@dominio.com, obligatorio.
+    * Teléfonos: de 1 a 3 números de teléfono de 10 dígitos cada uno.
+    * Dirección:
+        * Vía: solo puede tener los valores "calle" o "avenida".
+        * Nombre: texto de hasta 100 caracteres.
+        * Código Postal: exactamente 5 dígitos.
