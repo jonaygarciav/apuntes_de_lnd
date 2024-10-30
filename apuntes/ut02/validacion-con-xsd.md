@@ -10,6 +10,11 @@
 * Tipo simple XSD
 * Tipo complejo XSD
 * Grupo de elementos XSD
+* Restricciones de los elementos
+    * Restricción en xs:string
+    * Restricción en xs:date
+    * Restricción en xs:integer
+    * Otras restricciones
 * Grupo de atributos XSD
 * Tipos de datos integrados
     * Tipos numéricos
@@ -21,7 +26,6 @@
     * Listas y uniones
 * Namespaces
 * Diferencia entre DTD y XSD: ejemplo comparativo
-
 
 ## Introducción
 
@@ -304,7 +308,7 @@ XML válido para el esquema XSD anterior:
 
 En este fragmento de XSD define un tipo complejo llamado LibroType, que modela la estructura de un libro en un documento XML. Dentro del tipo LibroType, hay dos elementos obligatorios en secuencia (titulo y autor), ambos de tipo xs:string, para capturar el nombre del libro y el autor, respectivamente. Además, el tipo incluye un atributo publicado de tipo xs:date, que permite especificar la fecha de publicación del libro en el formato AAAA-MM-DD. El elemento libro, definido como instancia de LibroType, utiliza esta estructura en el XML, lo que permite que los documentos XML validados con este esquema contengan información completa sobre un libro, incluyendo su título, autor y fecha de publicación.
 
-# Grupo de Elementos XSD
+## Grupo de Elementos XSD
 
 Un grupo de elementos encapsula un conjunto de elementos que pueden reutilizarse en varios tipos complejos.
 
@@ -339,6 +343,85 @@ XML válido para el esquema XSD anterior:
 ```
 
 Este ejemplo de XSD utiliza un grupo de elementos llamado InformacionContacto para definir un conjunto reutilizable de datos de contacto, en este caso, telefono y email, ambos de tipo xs:string. Este grupo es referenciado dentro del tipo complejo PersonaType, que también incluye el elemento nombre. Al definir el grupo de elementos, se facilita la reutilización de la misma estructura de contacto en otros tipos complejos, mejorando la claridad y modularidad del esquema. Finalmente, el elemento persona se basa en el tipo PersonaType, permitiendo que un documento XML estructurado según este esquema contenga un nombre y la información de contacto correspondiente.
+
+## Restricciones en los elementos
+
+En XSD el elemento `xs:restriction` se usa para restringir los valores permitidos de un tipo de dato:
+
+### Restricción en xs:string
+
+Limitar la longitud de un string a 9 caracteres:
+
+```xml
+<xs:element name="exampleString">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="9"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+```
+
+### Restricción en xs:date
+
+Limitar una fecha dentro de un rango:
+
+```xml
+<xs:element name="startDate">
+  <xs:simpleType>
+    <xs:restriction base="xs:date">
+      <xs:minInclusive value="2023-01-01"/>
+      <xs:maxInclusive value="2024-01-01"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+```
+
+### Restricción en xs:integer
+
+Limitar un entero a valores entre 1 y 100:
+
+```xml
+<xs:element name="quantity">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+```
+
+Cada ejemplo utiliza xs:restriction para imponer límites en tipos específicos de datos, asegurando que los valores cumplan ciertos criterios antes de ser aceptados.
+
+### Otras restricciones
+
+El elemento teléfono será un entero y dicho elemento podrá aparecer entre 0 y 5 veces:
+
+```xml
+<xs:element name="telefono" minOccurs="0" maxOccurs="5">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+</xs:element>
+```
+
+El atributo dni será una plantilla de 8 números y una letra mayúscula:
+
+```xml
+<xs:attribute name="dni" type="xs:string" use="required">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{8}[A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+```
+
+`\d{8}[A-Z]`:
+* `\d{8}`: un conjunto de 8 números
+* `[A-Z]`: una letra entre la A y la Z mayúscula
+
 
 ## Grupo de Atributos XSD
 
