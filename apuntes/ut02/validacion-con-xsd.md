@@ -406,6 +406,16 @@ El elemento teléfono será un entero y dicho elemento podrá aparecer entre 0 y
 </xs:element>
 ```
 
+Para permitir un número de ocurrencias de 0 a infinito para el elemento telefono, usaríamos `maxOccurs="unbounded"` en lugar de un número específico:
+
+```xml
+<xs:element name="telefono" minOccurs="0" maxOccurs="unbounded">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+</xs:element>
+```
+
 El atributo dni será una plantilla de 8 números y una letra mayúscula:
 
 ```xml
