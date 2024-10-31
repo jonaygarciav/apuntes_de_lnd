@@ -518,14 +518,11 @@ Ejemplo de xs:boolean:
 * `xs:token`: similar a normalizedString, pero además elimina espacios adicionales al principio y al final.
 * `xs:language`: representa un código de idioma en el formato ISO (es, en, fr, etc.).
 * `xs:Name`, `xs:NCName`, `xs:QName`: representan nombres válidos en XML, como nombres de elementos o atributos.
-* `xs:ID`: identificador único dentro del documento XML.
-* `xs:IDREF` y `xs:IDREFS`: referencias a identificadores ID de otros elementos.
-* `xs:NMTOKEN` y `xs:NMTOKENS`: cadenas que solo pueden contener caracteres válidos en nombres XML.
 
-Ejemplo de `xs:token`:
+Ejemplo de `xs:string`:
 
 ```xml
-<xs:element name="nombre" type="xs:token"/>
+<xs:element name="nombre" type="xs:string"/>
 ```
 
 ### Tipos binarios
