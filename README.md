@@ -11,6 +11,6 @@ UT01: Introducción a los Lenguajes de Marcas
 * Estándares y Organismos de Normalización ([Apuntes](./apuntes/ut01/estandares-y-organismos-de-normalizacion.md) | [Ejercicios](./ejercicios/ut01/estandares-y-organismos-de-normalizacion.md))
 
 UT02: XML y validación de documentos XML con DTD y XSD
-* Introducción a XML ([Apuntes](./apuntes/ut02/intro-a-xml.md) | [Ejercicios](./apuntes/ejercicios/ut02/intro-a-xml.md))
+* Introducción a XML ([Apuntes](./apuntes/ut02/intro-a-xml.md) | [Ejercicios](./ejercicios/ut02/intro-a-xml.md))
 * Validación de documentos XML con DTD ([Apuntes](./apuntes/ut02/validacion-con-dtd.md) | [Ejercicios](./ejercicios/ut02/validacion-con-dtd.md))
 * Validación de documentos XML con XSD ([Apuntes](./apuntes/ut02/validacion-con-xsd.md) | [Ejercicios](./ejercicios/ut02/validacion-con-xsd.md))
