@@ -9,7 +9,7 @@ Un documento XML se organiza como un árbol jerárquico, donde cada nodo puede s
 * Un elemento `<tag>`.
 * Un atributo `attribute="value"`.
 * Texto contenido dentro de un elemento `<nombre>Steve</nombre>`.
-* Comentarios u otros tipos de nodos `<!---Students grades are uploaded by months---->`.
+* Comentarios u otros tipos de nodos `<!--- Students grades are uploaded by months --->`.
 * Estructura del árbol en XPath
 
 ## Consultas XPath Comunes
