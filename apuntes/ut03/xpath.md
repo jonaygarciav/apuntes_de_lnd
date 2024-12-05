@@ -7,9 +7,9 @@ __XPath__ es un lenguaje para navegar por documentos XML y seleccionar nodos en 
 Un documento XML se organiza como un árbol jerárquico, donde cada nodo puede ser:
 
 * Un elemento `<tag>`.
-* Un atributo `attribute="value".
-* Texto contenido dentro de un elemento.
-* Comentarios u otros tipos de nodos.
+* Un atributo `attribute="value"`.
+* Texto contenido dentro de un elemento `<nombre>Steve</nombre>`.
+* Comentarios u otros tipos de nodos `<!---Students grades are uploaded by months---->`.
 * Estructura del árbol en XPath
 
 ## Consultas XPath Comunes
