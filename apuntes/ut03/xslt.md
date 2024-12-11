@@ -1,4 +1,4 @@
-# SLT (Extensible Stylesheet Language Transformations)
+# XSLT (Extensible Stylesheet Language Transformations)
 
 * Introducción
 * Elementos Principales de XSLT
@@ -11,11 +11,11 @@ __XSLT__ (_Extensible Stylesheet Language Transformations_) es un lenguaje basad
 
 XSLT utiliza XPath para seleccionar partes específicas del documento XML y definir cómo deben transformarse o mostrarse.
 
-| Versión     | Año de Lanzamiento | Descripción Breve                                                                               |
-|-------------|--------------------|-------------------------------------------------------------------------------------------------|
-| XSLT 1.0    | 1999               | Versión inicial, centrada en la transformación de XML a otros formatos como HTML y texto plano. |
+| Versión     | Año de Lanzamiento | Descripción Breve                                                                                |
+|-------------|--------------------|--------------------------------------------------------------------------------------------------|
+| XSLT 1.0    | 1999               | Versión inicial, centrada en la transformación de XML a otros formatos como HTML y texto plano.  |
 | XSLT 2.0    | 2007               | Introducción de soporte para XPath 2.0, manejo avanzado de datos, y procesamiento de XML Schema. |
-| XSLT 3.0    | 2017               | Soporte para XPath 3.1, JSON, y procesamiento basado en funciones y programación modular.       |
+| XSLT 3.0    | 2017               | Soporte para XPath 3.1, JSON, y procesamiento basado en funciones y programación modular.        |
 
 __XSLT 1.0 (1999)__
 
