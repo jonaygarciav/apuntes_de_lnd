@@ -17,4 +17,4 @@ UT02: XML y validación de documentos XML con DTD y XSD
 
 UT03: XPath y XSLT
 * XPath ([Apuntes](./apuntes/ut03/xpath.md))
-* XSLT
+* XSLT ([Apuntes](./apuntes/ut03/xslt.md))
