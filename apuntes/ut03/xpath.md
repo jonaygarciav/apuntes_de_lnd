@@ -20,6 +20,11 @@
 
 __XPath__ es un lenguaje para navegar por documentos XML y seleccionar nodos en un árbol estructurado. Se utiliza comúnmente en combinación con XSLT, herramientas de pruebas (como Selenium) y para análisis de datos en aplicaciones basadas en XML y HTML.
 
+XPath significa __XML Path Language__:
+* __XML__: extensible Markup Language, el formato de datos estructurados que XPath navega y consulta.
+* __Path__: hace referencia a los "caminos" o rutas dentro de la estructura jerárquica del documento XML.
+* __Language__: porque es un lenguaje diseñado para realizar consultas sobre documentos XML.
+
 Un documento XML se organiza como un árbol jerárquico, donde cada nodo puede ser:
 
 * Un elemento `<tag>`.
