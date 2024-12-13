@@ -16,6 +16,6 @@ UT02: XML y validación de documentos XML con DTD y XSD
 * Validación de documentos XML con XSD ([Apuntes](./apuntes/ut02/validacion-con-xsd.md) | [Ejercicios](./ejercicios/ut02/validacion-con-xsd.md))
 
 UT03: XPath y XSLT
-* XPath ([Apuntes](./apuntes/ut03/xpath.md) | [Ejercicios](./ejercicios/ut03/xpath.md))))
-* XSLT ([Apuntes](./apuntes/ut03/xslt.md)  | [Ejercicios](./ejercicios/ut03/xslt.md)))
+* XPath ([Apuntes](./apuntes/ut03/xpath.md) | [Ejercicios](./ejercicios/ut03/xpath.md))
+* XSLT ([Apuntes](./apuntes/ut03/xslt.md)  | [Ejercicios](./ejercicios/ut03/xslt.md))
 * XQuery ([Apuntes](./apuntes/ut03/xquery.md) | [Ejercicios](./ejercicios/ut03/xquery.md))
