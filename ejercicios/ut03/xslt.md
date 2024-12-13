@@ -1,6 +1,6 @@
 # XSLT (Ejercicios)
 
-__Ejercicio 1__. Generar mediante XSLT una lista HTML desordenada (<ul>) con los nombres de las frutas. a partir del siguiente HTML.
+__Ejercicio 1__. Generar mediante XSLT una lista HTML desordenada `<ul>` con los nombres de las frutas. a partir del siguiente HTML.
 
 XML de entrada:
 
