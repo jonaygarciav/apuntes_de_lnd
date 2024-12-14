@@ -32,25 +32,25 @@ __Ejercicio 1__. Archivo `biblioteca.xml`:
 </biblioteca>
 ```
 
-__Pregunta 1__. Devuelve todos los títulos de los libros.
+_Pregunta 1_. Devuelve todos los títulos de los libros.
 
-__Pregunta 2__. Devuelve los títulos de libros cuyo precio es mayor a 15.
+_Pregunta 2_. Devuelve los títulos de libros cuyo precio es mayor a 15.
 
-__Pregunta 3__. Lista los autores y sus países de origen.
+_Pregunta 3_. Lista los autores y sus países de origen.
 
-__Pregunta 4__. Calcula el precio promedio de los libros.
+_Pregunta 4_. Calcula el precio promedio de los libros.
 
-__Pregunta 5__. Devuelve los títulos ordenados alfabéticamente.
+_Pregunta 5_. Devuelve los títulos ordenados alfabéticamente.
 
-__Pregunta 6__. Devuelve los títulos y precios de los libros en formato XML.
+_Pregunta 6_. Devuelve los títulos y precios de los libros en formato XML.
 
-__Pregunta 7__. Encuentra libros del género "Ficción".
+_Pregunta 7_. Encuentra libros del género "Ficción".
 
-__Pregunta 8__. Devuelve los libros cuyo autor sea de "EE.UU.".
+_Pregunta 8_. Devuelve los libros cuyo autor sea de "EE.UU.".
 
-__Pregunta 9__. Lista los libros y su precio total (precio + 5 USD de impuesto).
+_Pregunta 9_. Lista los libros y su precio total (precio + 5 USD de impuesto).
 
-__Pregunta 10__. Devuelve el libro más caro en el catálogo.
+_Pregunta 10_. Devuelve el libro más caro en el catálogo.
 
 __Ejercicio 2__. Archivo `tienda.xml`:
 
@@ -84,27 +84,27 @@ __Ejercicio 2__. Archivo `tienda.xml`:
 </tienda>
 ```
 
-__Pregunta 1__. Devuelve los nombres de todos los productos.
+_Pregunta 1_. Devuelve los nombres de todos los productos.
 
-__Pregunta 2__. Devuelve los productos de la categoría "Accesorios".
+_Pregunta 2_. Devuelve los productos de la categoría "Accesorios".
 
-__Pregunta 3__. Calcula el precio total de todos los productos.
+_Pregunta 3_. Calcula el precio total de todos los productos.
 
-__Pregunta 4__. Encuentra productos con un precio mayor a 500 USD.
+_Pregunta 4_. Encuentra productos con un precio mayor a 500 USD.
 
-__Pregunta 5__. Devuelve los productos y sus precios con un descuento del 10%.
+_Pregunta 5_. Devuelve los productos y sus precios con un descuento del 10%.
 
-__Pregunta 6__. Lista los productos ordenados por precio de menor a mayor.
+_Pregunta 6_. Lista los productos ordenados por precio de menor a mayor.
 
-__Pregunta 7__. Devuelve los productos de la marca "HP".
+_Pregunta 7_. Devuelve los productos de la marca "HP".
 
-__Pregunta 8__. Devuelve los nombres y categorías de los productos como elementos `<item>`.
+_Pregunta 8_. Devuelve los nombres y categorías de los productos como elementos `<item>`.
 
-__Pregunta 9__. Encuentra el producto más barato.
+_Pregunta 9_. Encuentra el producto más barato.
 
-__Pregunta 10__. Calcula el precio promedio de los productos en la categoría "Computadoras".
+_Pregunta 10_. Calcula el precio promedio de los productos en la categoría "Computadoras".
 
-__Ejercicio 3__. Archivo `musica.xml`:
+_Ejercicio 3_. Archivo `musica.xml`:
 
 ```xml
 <catalogo>
@@ -135,25 +135,25 @@ __Ejercicio 3__. Archivo `musica.xml`:
 </catalogo>
 ```
 
-__Pregunta 1__. Devuelve todos los títulos de los álbumes.
+_Pregunta 1_. Devuelve todos los títulos de los álbumes.
 
-__Pregunta 2__. Devuelve los álbumes cuyo precio es mayor a 18.
+_Pregunta 2_. Devuelve los álbumes cuyo precio es mayor a 18.
 
-__Pregunta 3__. Lista los títulos y géneros de todos los álbumes.
+_Pregunta 3_. Lista los títulos y géneros de todos los álbumes.
 
-__Pregunta 4__. Calcula el precio promedio de los álbumes (usa `let`).
+_Pregunta 4_. Calcula el precio promedio de los álbumes (usa `let`).
 
-__Pregunta 5__. Encuentra los álbumes de género "Rock".
+_Pregunta 5_. Encuentra los álbumes de género "Rock".
 
-__Pregunta 6__. Ordena los álbumes por año de lanzamiento.
+_Pregunta 6_. Ordena los álbumes por año de lanzamiento.
 
-__Pregunta 7__. Devuelve el álbum más caro.
+_Pregunta 7_. Devuelve el álbum más caro.
 
-__Pregunta 8__. Devuelve los títulos y los precios con un descuento del 20%.
+_Pregunta 8_. Devuelve los títulos y los precios con un descuento del 20%.
 
-__Pregunta 9__. Devuelve los álbumes lanzados antes de 1975.
+_Pregunta 9_. Devuelve los álbumes lanzados antes de 1975.
 
-__Pregunta 10__. Calcula el precio total de todos los álbumes.
+_Pregunta 10_. Calcula el precio total de todos los álbumes.
 
 __Ejercicio 4__. Archivo `estudiantes.xml`:
 
@@ -182,25 +182,25 @@ __Ejercicio 4__. Archivo `estudiantes.xml`:
 </estudiantes>
 ```
 
-__Pregunta 1__. Devuelve los nombres de los estudiantes.
+_Pregunta 1_. Devuelve los nombres de los estudiantes.
 
-__Pregunta 2__. Filtra los estudiantes con una nota mayor a 8.
+_Pregunta 2_. Filtra los estudiantes con una nota mayor a 8.
 
-__Pregunta 3__. Devuelve los nombres y las carreras de los estudiantes.
+_Pregunta 3_. Devuelve los nombres y las carreras de los estudiantes.
 
-__Pregunta 4__. Calcula la nota promedio de los estudiantes (usa let).
+_Pregunta 4_. Calcula la nota promedio de los estudiantes (usa let).
 
-__Pregunta 5__. Devuelve los estudiantes de la carrera "Ingeniería".
+_Pregunta 5_. Devuelve los estudiantes de la carrera "Ingeniería".
 
-__Pregunta 6__. Ordena a los estudiantes por edad.
+_Pregunta 6_. Ordena a los estudiantes por edad.
 
-__Pregunta 7__. Devuelve el estudiante más joven.
+_Pregunta 7_. Devuelve el estudiante más joven.
 
-__Pregunta 8__. Devuelve los nombres y las notas incrementadas en 0.5.
+_Pregunta 8_. Devuelve los nombres y las notas incrementadas en 0.5.
 
-__Pregunta 9__. Devuelve los estudiantes cuya nota es mayor a 8 y pertenecen a Ingeniería.
+_Pregunta 9_. Devuelve los estudiantes cuya nota es mayor a 8 y pertenecen a Ingeniería.
 
-__Pregunta 10__. Cuenta cuántos estudiantes hay en total.
+_Pregunta 10_. Cuenta cuántos estudiantes hay en total.
 
 __Ejercicio 5__. Archivo `pedidos.xml`:
 
@@ -229,22 +229,22 @@ __Ejercicio 5__. Archivo `pedidos.xml`:
 </pedidos>
 ```
 
-__Ejercicio 1__. Devuelve los nombres de los clientes.
+_Ejercicio 1_. Devuelve los nombres de los clientes.
 
-__Ejercicio 2__. Devuelve los productos con precio total (cantidad × precio).
+_Ejercicio 2_. Devuelve los productos con precio total (cantidad × precio).
 
-__Ejercicio 3__. Filtra los pedidos cuyo precio total sea mayor a 100.
+_Ejercicio 3_. Filtra los pedidos cuyo precio total sea mayor a 100.
 
-__Ejercicio 4__. Calcula el precio promedio de todos los pedidos.
+_Ejercicio 4_. Calcula el precio promedio de todos los pedidos.
 
-__Ejercicio 5__. Devuelve el pedido más caro.
+_Ejercicio 5_. Devuelve el pedido más caro.
 
-__Ejercicio 6__. Ordena los pedidos por cliente alfabéticamente.
+_Ejercicio 6_. Ordena los pedidos por cliente alfabéticamente.
 
-__Ejercicio 7__. Calcula el precio total de todos los pedidos.
+_Ejercicio 7_. Calcula el precio total de todos los pedidos.
 
-__Ejercicio 8__. Devuelve los nombres de los clientes que compraron más de 3 unidades.
+_Ejercicio 8_. Devuelve los nombres de los clientes que compraron más de 3 unidades.
 
-__Ejercicio 9__. Devuelve los productos y sus precios con un descuento del 15% (usa `let`).
+_Ejercicio 9_. Devuelve los productos y sus precios con un descuento del 15% (usa `let`).
 
-__Ejercicio 10__. Cuenta el número total de pedidos.
+_Ejercicio 10_. Cuenta el número total de pedidos.
