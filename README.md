@@ -23,4 +23,5 @@ UT03: XPath y XSLT
 UT04: HTML
 * W3Schools Documentación ([Apuntes](https://www.w3schools.com/))
 * Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/HTML))
-* [Ejercicios](./ejercicios/ut04/ejercicios-basicos.md)
+* [Ejercicios Básicos](./ejercicios/ut04/ejercicios-basicos.md)
+* [Ejercicios de listas](./ejercicios/ut04/ejercicios-listas.md)
