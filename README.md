@@ -28,3 +28,4 @@ UT04: HTML
 * [Ejercicios de enlaces HTML, anclas y url](./ejercicios/ut04/ejercicios-enlaces-html-anclas-y-url.md)
 * [Ejercicios de tablas](./ejercicios/ut04/ejercicios-tablas.md)
 * [Ejercicios de audios y vídeos](./ejercicios/ut04/ejercicios-media.md)
+* [Ejercicios de formularios](./ejercicios/ut04/ejercicios-formularios.md)
