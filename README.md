@@ -30,3 +30,4 @@ UT04: HTML
 * [Ejercicios de audios y vídeos](./ejercicios/ut04/ejercicios-media.md)
 * [Ejercicios de formularios](./ejercicios/ut04/ejercicios-formularios.md)
 * [Ejercicios de estructura web](./ejercicios/ut04/ejercicios-estructura-web.md)
+* [Ejercicios de arreglos](./ejercicios/ut04/ejercicios-arreglos.md)
