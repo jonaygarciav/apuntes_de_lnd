@@ -21,7 +21,7 @@ UT03: XPath y XSLT
 * XQuery ([Apuntes](./apuntes/ut03/xquery.md) | [Ejercicios](./ejercicios/ut03/xquery.md))
 
 UT04: HTML
-* W3Schools Documentación ([Apuntes](https://www.w3schools.com/))
+* W3Schools Documentación ([Apuntes](https://www.w3schools.com/html/default.asp))
 * Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/HTML))
 * [Ejercicios básicos](./ejercicios/ut04/ejercicios-basicos.md)
 * [Ejercicios de listas](./ejercicios/ut04/ejercicios-listas.md)
@@ -31,3 +31,7 @@ UT04: HTML
 * [Ejercicios de formularios](./ejercicios/ut04/ejercicios-formularios.md)
 * [Ejercicios de estructura web](./ejercicios/ut04/ejercicios-estructura-web.md)
 * [Ejercicios de arreglos](./ejercicios/ut04/ejercicios-arreglos.md)
+
+UT05: CSS
+* W3Schools Documentación ([Apuntes](https://www.w3schools.com/css/default.asp))
+* Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/CSS))
