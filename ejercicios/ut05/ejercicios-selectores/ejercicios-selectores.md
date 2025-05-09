@@ -125,7 +125,7 @@ Código HTML:
 </html>
 ```
 
-# Ejercicio 4
+## Ejercicio 4
 
 Estilizar una sección de noticias. Aplicando los siguientes estilos:
 
