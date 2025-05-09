@@ -38,5 +38,51 @@ El ancho de la tabla debe ser de 800 píxeles. Colores a utilizar: #b1cc7f, #d8e
 
 ![][02]
 
+## Ejercicio 3
+
+Modifica la fuente de este documento HTML utilizando una fuente de Google Fonts (por ejemplo: "Poppins", "Lobster", o "Roboto").
+
+Parte del fichero HTML:
+
+```html
+<h1>Google Fonts</h2>
+  <p>Google Fonts ofrece cientos de fuentes que se pueden incluir fácilmente en cualquier página web. Solo necesitas incluir un enlace en el encabezado del documento y aplicar la fuente con la propiedad <code>font-family</code>.</p>
+
+  <h2>¿Qué deben hacer los alumnos?</h2>
+  <ul>
+    <li>Cambiar la fuente a otra de Google Fonts.</li>
+    <li>Modificar los colores de fondo y texto.</li>
+    <li>Aplicar estilos diferentes a cada sección.</li>
+    <li>Agregar un diseño responsivo (si ya conocen media queries).</li>
+  </ul>
+
+  <footer>
+    Página creada para fines educativos. Curso de Desarrollo Web - 2025
+  </footer>
+```
+
+
+## Ejercicio 4
+
+Modifica la fuente de este documento HTML utilizando fuentes de Google Fonts (por ejemplo: "Poppins", "Lobster", o "Roboto"). Esta vez utiliza una primera fuente para las etiquetas `<h1>` y `<h2>`, una segunda fuente para las etiquetas `<p>` y una tercera fuente para las etiquetas `<li>`:
+Parte del fichero HTML:
+
+```html
+<h1>Google Fonts</h2>
+  <p>Google Fonts ofrece cientos de fuentes que se pueden incluir fácilmente en cualquier página web. Solo necesitas incluir un enlace en el encabezado del documento y aplicar la fuente con la propiedad <code>font-family</code>.</p>
+
+  <h2>¿Qué deben hacer los alumnos?</h2>
+  <ul>
+    <li>Cambiar la fuente a otra de Google Fonts.</li>
+    <li>Modificar los colores de fondo y texto.</li>
+    <li>Aplicar estilos diferentes a cada sección.</li>
+    <li>Agregar un diseño responsivo (si ya conocen media queries).</li>
+  </ul>
+
+  <footer>
+    Página creada para fines educativos. Curso de Desarrollo Web - 2025
+  </footer>
+```
+
 [01]: ./ejercicio01.png "01"
 [01]: ./ejercicio02.png "02"
