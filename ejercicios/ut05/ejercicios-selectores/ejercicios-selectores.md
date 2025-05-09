@@ -129,7 +129,7 @@ Código HTML:
 
 Estilizar una sección de noticias. Aplicando los siguientes estilos:
 
-* Todos los títulos de noticias (<h2> dentro de .noticia) deben tener color darkblue y fuente Georgia.
+* Todos los títulos de noticias (`<h2>` dentro de .noticia) deben tener color darkblue y fuente Georgia.
 * El primer párrafo de cada noticia debe estar en cursiva.
 * Todos los enlaces dentro de .noticia deben estar subrayados solo al pasar el ratón.
 * Si el enlace tiene la clase .externo, debe tener color rojo y abrir en otra pestaña.
