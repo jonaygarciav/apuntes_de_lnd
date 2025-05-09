@@ -30,4 +30,13 @@ El fichero  CSS se debe llamar `style.css`. Tienes que tener en cuenta los sigui
     * El color de fondo del texto es negro: #000.
     * Texto en cursiva.
 
+## Ejercicio 2
+
+Crea una tabla sobre los desplazamientos en Londres utilizando una hoja de estilo incrustada. 
+
+El ancho de la tabla debe ser de 800 píxeles. Colores a utilizar: #b1cc7f, #d8e1c6, #91c4d5, #66a8be y #d6eaf1.
+
+![][02]
+
 [01]: ./ejercicio01.png "01"
+[01]: ./ejercicio02.png "02"
