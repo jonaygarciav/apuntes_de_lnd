@@ -85,4 +85,4 @@ Parte del fichero HTML:
 ```
 
 [01]: ./ejercicio01.png "01"
-[01]: ./ejercicio02.png "02"
+[02]: ./ejercicio02.png "02"
