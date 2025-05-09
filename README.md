@@ -35,8 +35,8 @@ UT04: HTML
 UT05: CSS
 * W3Schools Documentación ([Apuntes](https://www.w3schools.com/css/default.asp))
 * Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/CSS))
-* [Ejercicios básicos](./ejercicios/ut05/ejercicios-basicos.md)
-* [Ejercicios de selectores](./ejercicios/ut05/ejercicios-selectores.md)
+* [Ejercicios básicos](./ejercicios/ut05/ejercicios-basicos/ejercicios-basicos.md)
+* [Ejercicios de selectores](./ejercicios/ut05/ejercicios-selectores/ejercicios-selectores.md)
 
 Juegos:
 * [CSS Diner](https://flukeout.github.io/)
