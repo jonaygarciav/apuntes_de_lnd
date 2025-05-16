@@ -37,6 +37,7 @@ UT05: CSS
 * Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/CSS))
 * [Ejercicios básicos](./ejercicios/ut05/ejercicios-basicos/ejercicios-basicos.md)
 * [Ejercicios de selectores](./ejercicios/ut05/ejercicios-selectores/ejercicios-selectores.md)
+* [Ejercicios básicos 2](./ejercicios/ut05/ejercicios-basicos2/ejercicios-basicos2.md)
 
 Juegos:
 * [CSS Diner](https://flukeout.github.io/)
