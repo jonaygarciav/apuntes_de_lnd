@@ -23,21 +23,10 @@ UT03: XPath y XSLT
 UT04: HTML
 * W3Schools Documentación ([Apuntes](https://www.w3schools.com/html/default.asp))
 * Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/HTML))
-* [Ejercicios básicos](./ejercicios/ut04/ejercicios-basicos.md)
-* [Ejercicios de listas](./ejercicios/ut04/ejercicios-listas.md)
-* [Ejercicios de enlaces HTML, anclas y url](./ejercicios/ut04/ejercicios-enlaces-html-anclas-y-url.md)
-* [Ejercicios de tablas](./ejercicios/ut04/ejercicios-tablas.md)
-* [Ejercicios de audios y vídeos](./ejercicios/ut04/ejercicios-media.md)
-* [Ejercicios de formularios](./ejercicios/ut04/ejercicios-formularios.md)
-* [Ejercicios de estructura web](./ejercicios/ut04/ejercicios-estructura-web.md)
-* [Ejercicios de arreglos](./ejercicios/ut04/ejercicios-arreglos.md)
 
 UT05: CSS
 * W3Schools Documentación ([Apuntes](https://www.w3schools.com/css/default.asp))
 * Developer Mozilla Documentación ([Apuntes](https://developer.mozilla.org/es/docs/Web/CSS))
-* [Ejercicios básicos](./ejercicios/ut05/ejercicios-basicos/ejercicios-basicos.md)
-* [Ejercicios de selectores](./ejercicios/ut05/ejercicios-selectores/ejercicios-selectores.md)
-* [Ejercicios básicos 2](./ejercicios/ut05/ejercicios-basicos2/ejercicios-basicos2.md)
 
 Juegos:
 * [CSS Diner](https://flukeout.github.io/)
